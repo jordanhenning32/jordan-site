@@ -593,7 +593,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         org="Quadratic Digital",
         dates="April 2025 – Present",
         lead=None if brief else (
-            "Driving growth at a 12-person services firm serving state, federal, and prime-subcontract clients — "
+            "Driving growth at a 14-person services firm serving state, federal, and prime-subcontract clients — "
             "pairing proven go-to-market discipline with the multi-agent AI tooling I build hands-on."
         ),
         bullets=CGO_BULLETS_BRIEF if brief else CGO_BULLETS_FULL,

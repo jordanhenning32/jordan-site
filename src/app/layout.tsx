@@ -86,7 +86,7 @@ const personSchema = {
   worksFor: {
     "@type": "Organization",
     name: "Quadratic Digital",
-    description: "12-person federal services firm serving state, federal, and prime-subcontract clients",
+    description: "14-person federal services firm serving state, federal, and prime-subcontract clients",
   },
   alumniOf: [
     { "@type": "Organization", name: "Social Security Administration" },

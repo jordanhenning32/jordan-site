@@ -14,7 +14,7 @@ export const timeline: Milestone[] = [
     role: "Chief Growth Officer",
     org: "Quadratic Digital",
     highlight:
-      "Driving growth at a 12-person services firm serving state, federal, and prime-subcontract clients — pairing proven go-to-market discipline with the multi-agent AI tooling I build hands-on.",
+      "Driving growth at a 14-person services firm serving state, federal, and prime-subcontract clients — pairing proven go-to-market discipline with the multi-agent AI tooling I build hands-on.",
     bullets: [
       "Designing and shipping RFP Factory — a multi-agent proposal automation system that compresses 40-hour proposal cycles into 2 hours of human review, a 20× reduction no traditional GTM team can match.",
       "Subcontracting multiple roles to Nava on CMS modernization programs — embedding Quadratic into a marquee civic-tech delivery prime that supports healthcare-focused federal modernization work.",
