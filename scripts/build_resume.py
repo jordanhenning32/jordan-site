@@ -160,18 +160,18 @@ HEADER_TITLE = "Federal Services Delivery Executive  ·  17+ years SSA  ·  FAC-
 def summary_full():
     return [
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
-        ("Seventeen-plus years", dict(size=11, bold=True)),
-        (" of federal program leadership at the Social Security Administration — a ", dict(size=11)),
+        ("Seventeen years of federal IT at the Social Security Administration", dict(size=11, bold=True)),
+        (", culminating in three years as Branch Chief leading a ", dict(size=11)),
         ("352-person organization across 170 nationwide offices", dict(size=11, bold=True)),
-        (" sustained at ", dict(size=11)),
+        (" at ", dict(size=11)),
         ("99.9% system availability", dict(size=11, bold=True)),
         (", with multi-year ", dict(size=11)),
         ("$200M+ Agile IT portfolios", dict(size=11, bold=True)),
-        (" delivered on-time and under-budget. That federal track record is now layered with hands-on multi-agent AI fluency, proven in ", dict(size=11)),
-        ("two production systems", dict(size=11, bold=True)),
-        (" I designed, coded, and operate myself. ", dict(size=11)),
+        (" delivered on-time and under-budget. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
-        (" held throughout SSA tenure (2008–2025), eligible to reinstate. FAC-P/PM certified. Combat-tested under three tours with the 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" held throughout SSA tenure (2008–2025), eligible to reinstate. FAC-P/PM certified. That federal track record is now layered with hands-on multi-agent AI fluency, proven in ", dict(size=11)),
+        ("two production systems", dict(size=11, bold=True)),
+        (" I designed, coded, and operate myself. Combat-tested under three tours with the 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
         (" — where 99.9% uptime, $200M+ portfolio scale, and hands-on AI capability all matter in the same role.", dict(size=11)),
     ]
@@ -180,12 +180,14 @@ def summary_full():
 def summary_brief():
     return [
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
-        ("17+ years federal program leadership at enterprise scale (352-person org, 170 offices, 99.9% availability, $200M+ portfolio)", dict(size=11, bold=True)),
-        (", layered with two production multi-agent AI systems I designed, coded, and operate myself: ", dict(size=11)),
+        ("17 years federal IT at SSA", dict(size=11, bold=True)),
+        (" — most recently three years as ", dict(size=11)),
+        ("Branch Chief over a 352-person organization (170 offices, 99.9% availability, $200M+ portfolio)", dict(size=11, bold=True)),
+        (". FAC-P/PM certified. Public Trust cleared. Layered with two production multi-agent AI systems I designed, coded, and operate myself: ", dict(size=11)),
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 20× cycle compression at Quadratic Digital) and ", dict(size=11)),
         ("Futures Bot", dict(size=11, bold=True)),
-        (" (autonomous multi-agent trading, live since Feb 2026, 62% win rate over ~500 trades). Public Trust cleared. FAC-P/PM certified. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" (autonomous multi-agent trading, live since Feb 2026, 62% win rate over ~500 trades). Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery", dict(size=11, bold=True)),
         (" or ", dict(size=11)),
         ("GM Federal AI Services", dict(size=11, bold=True)),
@@ -195,9 +197,9 @@ def summary_brief():
 
 def summary_service_ops():
     return [
-        ("Enterprise federal services delivery executive", dict(size=11, bold=True)),
-        (" with 17+ years sustaining ", dict(size=11)),
-        ("99.9% availability across 170 nationwide offices", dict(size=11, bold=True)),
+        ("Federal services delivery executive", dict(size=11, bold=True)),
+        (" with 17 years at SSA, culminating in three years as ", dict(size=11)),
+        ("Branch Chief sustaining 99.9% availability across 170 nationwide offices", dict(size=11, bold=True)),
         (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Led a 352-person organization with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
         ("FedRAMP / ATO governance", dict(size=11, bold=True)),
         (", and CIO-level cross-functional partnership. That service-delivery discipline is now layered with hands-on multi-agent AI fluency — the foundation for AI-augmented federal service operations. Public Trust cleared. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
@@ -209,7 +211,7 @@ def summary_service_ops():
 def summary_federal_it():
     return [
         ("Federal IT executive", dict(size=11, bold=True)),
-        (" with 17 years at the Social Security Administration culminating as Branch Chief over 170 nationwide Hearings Offices and a 352-person organization. ", dict(size=11)),
+        (" with 17 years at the Social Security Administration, culminating in three years as Branch Chief over 170 nationwide Hearings Offices and a 352-person organization. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
         (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
         ("FAC-P/PM certified", dict(size=11, bold=True)),
@@ -222,9 +224,9 @@ def summary_federal_it():
 def summary_program_pm():
     return [
         ("FAC-P/PM-certified federal program leader", dict(size=11, bold=True)),
-        (" with 17+ years of multi-year Agile delivery at enterprise scale — ", dict(size=11)),
-        ("$200M+ portfolios delivered on-time and under-budget", dict(size=11, bold=True)),
-        (". Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
+        (". Nine years of federal IT leadership at SSA — five years as IT Project Manager directing ", dict(size=11)),
+        ("$200M+ Agile portfolios on-time and under-budget", dict(size=11, bold=True)),
+        (", three years as Branch Chief over a 352-person organization. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
         ("VA cross-agency disability-evidence partnership", dict(size=11, bold=True)),
         (", and the emergency COVID-19 medical document upload system on MySSA (SSA Commissioner Award). 100% direct-report retention; 4 of 4 mentees promoted into PM leadership. Now layered with hands-on multi-agent AI fluency for AI-augmented program offices. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("senior PM/PgM roles at federal contractors and federal services firms", dict(size=11, bold=True)),
