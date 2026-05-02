@@ -1,26 +1,187 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 8 13 26;
+  --background-elev: 14 21 41;
+  --foreground: 226 232 245;
+  --muted: 174 187 207;
+  --muted-strong: 198 209 226;
+  --border: 30 41 65;
+  --accent: 99 165 230;
+  --accent-soft: 129 184 232;
+  --accent-2: 209 165 110;
+  --navy: 15 23 50;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: rgb(var(--background));
+  --color-background-elev: rgb(var(--background-elev));
+  --color-foreground: rgb(var(--foreground));
+  --color-muted: rgb(var(--muted));
+  --color-muted-strong: rgb(var(--muted-strong));
+  --color-border: rgb(var(--border));
+  --color-accent: rgb(var(--accent));
+  --color-accent-soft: rgb(var(--accent-soft));
+  --color-accent-2: rgb(var(--accent-2));
+  --color-navy: rgb(var(--navy));
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html, body {
+  background:
+    radial-gradient(900px 500px at 85% -5%, rgba(99, 165, 230, 0.05), transparent 65%),
+    radial-gradient(700px 400px at -5% 25%, rgba(209, 165, 110, 0.025), transparent 65%),
+    rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(99, 165, 230, 0.32);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.glass {
+  background: linear-gradient(180deg, rgba(255,255,255,0.025), rgba(255,255,255,0.008));
+  border: 1px solid rgb(var(--border) / 0.7);
+  backdrop-filter: blur(14px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #e6edf7 0%, #b8d2ee 60%, #9ec1e7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtle-grid {
+  background-image:
+    linear-gradient(rgba(99, 165, 230, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(99, 165, 230, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse 800px 400px at 50% 0%, black 30%, transparent 80%);
+}
+
+.portrait-pro {
+  filter: contrast(1.04) brightness(0.99);
+}
+
+.portrait-military {
+  filter: contrast(1.07) saturate(0.82) brightness(0.96);
+}
+
+.portrait-vignette::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(120% 80% at 50% 50%, transparent 55%, rgba(8, 13, 26, 0.45) 100%),
+    linear-gradient(180deg, transparent 65%, rgba(8, 13, 26, 0.55) 100%);
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.4); }
+}
+
+.pulse-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: currentColor;
+  animation: pulse-dot 2.4s ease-in-out infinite;
+}
+
+input, textarea, button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media print {
+  html, body {
+    background: white !important;
+    color: #0b1224 !important;
+    font-size: 11pt;
+  }
+
+  body {
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .print-document {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .print-topnav {
+    display: none !important;
+  }
+
+  .print-document h1,
+  .print-document h2,
+  .print-document h3,
+  .print-document p,
+  .print-document li,
+  .print-document span {
+    color: #0b1224 !important;
+    background: none !important;
+    -webkit-text-fill-color: #0b1224 !important;
+  }
+
+  .print-document .gradient-text {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+    color: #0b1224 !important;
+    -webkit-text-fill-color: #0b1224 !important;
+  }
+
+  .print-document .text-muted,
+  .print-document .text-accent,
+  .print-document .text-foreground\/85,
+  .print-document .text-foreground\/90 {
+    color: #1f2a44 !important;
+  }
+
+  .print-document .border-accent\/30,
+  .print-document .border-border\/40,
+  .print-document .border-border\/50,
+  .print-document .border-border\/70 {
+    border-color: #cbd5e1 !important;
+  }
+
+  .print-document .bg-accent\/8,
+  .print-document .bg-accent\/10,
+  .print-document .bg-background-elev\/60 {
+    background: #f1f5f9 !important;
+  }
+
+  .print-block {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: "";
+  }
+
+  nav, header.fixed {
+    display: none !important;
+  }
 }
