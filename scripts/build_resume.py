@@ -169,11 +169,17 @@ def summary_full():
         ("$200M+ Agile IT portfolios", dict(size=11, bold=True)),
         (" delivered on-time and under-budget. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
-        (" held throughout SSA tenure (2008–2025), eligible to reinstate. FAC-P/PM certified. That federal track record is now layered with hands-on multi-agent AI fluency, proven in ", dict(size=11)),
-        ("two production systems", dict(size=11, bold=True)),
-        (" I designed, coded, and operate myself. Combat-tested under three tours with the 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
+        ("FAC-P/PM certified", dict(size=11, bold=True)),
+        ("; familiar with GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA, FedRAMP, ATO governance, and PA Invitation-to-Qualify procurement. Now ", dict(size=11)),
+        ("Chief Growth Officer at Quadratic Digital", dict(size=11, bold=True)),
+        (" (14-person federal services firm), where I personally designed, coded, and operate two production multi-agent AI systems: ", dict(size=11)),
+        ("RFP Factory", dict(size=11, bold=True)),
+        (" (multi-agent proposal automation, 40-hour federal proposal cycles compressed to 2 hours — 20× faster) and ", dict(size=11)),
+        ("Futures Bot", dict(size=11, bold=True)),
+        (" (autonomous multi-agent trading, live since Feb 2026, 62% win rate over 500+ trades). Combat-tested under three tours with the 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
-        (" — where 99.9% uptime, $200M+ portfolio scale, and hands-on AI capability all matter in the same role.", dict(size=11)),
+        (" — where federal-scale uptime, $200M+ portfolio discipline, procurement fluency, and hands-on AI capability all matter in the same role.", dict(size=11)),
     ]
 
 

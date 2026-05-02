@@ -62,15 +62,15 @@ export const roleResumes: RoleResume[] = [
 
 export const universalResumes = {
   full: {
-    label: "Full deep-dive (~4 pages)",
+    label: "Master resume (~3-4 pages)",
     description:
-      "Comprehensive version with full bullet detail, AI builds, references, and fit filter.",
+      "Comprehensive version for employer applications and recruiter hand-offs. Full executive summary with vehicle fluency, named AI builds, and complete role-by-role detail. This is the one to send.",
     file: "/resumes/Jordan-Henning-Resume.pdf",
   },
   brief: {
-    label: "2-page brief",
+    label: "2-page brief (ATS-friendly)",
     description:
-      "Same content, tightened to 2 pages. Best for cold applications and ATS uploads.",
+      "Tightened to 2 pages with brief bullets. Use for cold ATS uploads where length is constrained.",
     file: "/resumes/Jordan-Henning-Resume-Brief.pdf",
   },
 } as const;
