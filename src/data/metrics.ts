@@ -10,8 +10,8 @@ export type MetricItem = {
 export const metrics: MetricItem[] = [
   {
     value: 352,
-    label: "Person organization led",
-    detail: "12 direct / 340 indirect reports as Branch Chief at SSA",
+    label: "Federal IT operation led",
+    detail: "Manager-of-managers as Branch Chief: 12 direct reports + 340 field IT staff across 170 SSA Hearings Offices, serving 7,000+ employees",
   },
   {
     value: 170,

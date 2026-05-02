@@ -21,7 +21,7 @@ export const skillMatrix: SkillCard[] = [
       "Unify fragmented service models across distributed offices into a single delivery framework with shared SLAs, monitoring, and escalation paths.",
     proof: [
       "Standardized service operations across 170 SSA Hearings Offices nationwide",
-      "Designed escalation tiers and SLA governance for a 352-person organization",
+      "Designed escalation tiers and SLA governance for a 12-direct, 340-field IT operation across 170 offices",
       "Aligned procurement, vendor management, and lifecycle refresh to mission outcomes",
     ],
   },

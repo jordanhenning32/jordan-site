@@ -20,8 +20,8 @@ export const battlefieldToBoardroom: BridgeItem[] = [
       detail: "Led infantry units through deployment cycles where adaptability decided outcomes.",
     },
     it: {
-      title: "352-person service organization",
-      detail: "Manager-of-managers across 12 direct and 340 indirect reports across 170 offices.",
+      title: "Manager-of-managers across 170 offices",
+      detail: "12 direct reports overseeing 340 field IT staff nationwide, serving 7,000+ Hearings Office employees.",
     },
   },
   {

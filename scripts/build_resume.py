@@ -161,8 +161,8 @@ def summary_full():
     return [
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
         ("Seventeen years of federal IT at the Social Security Administration", dict(size=11, bold=True)),
-        (", culminating in three years as Branch Chief leading a ", dict(size=11)),
-        ("352-person organization across 170 nationwide offices", dict(size=11, bold=True)),
+        (", culminating in three years as Branch Chief — manager-of-managers over ", dict(size=11)),
+        ("12 direct reports + 340 field IT staff across 170 nationwide Hearings Offices, serving 7,000+ SSA employees", dict(size=11, bold=True)),
         (" at ", dict(size=11)),
         ("99.9% system availability", dict(size=11, bold=True)),
         (", with multi-year ", dict(size=11)),
@@ -182,7 +182,7 @@ def summary_brief():
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
         ("17 years federal IT at SSA", dict(size=11, bold=True)),
         (" — most recently three years as ", dict(size=11)),
-        ("Branch Chief over a 352-person organization (170 offices, 99.9% availability, $200M+ portfolio)", dict(size=11, bold=True)),
+        ("Branch Chief: manager-of-managers over 12 direct + 340 field IT across 170 offices serving 7,000+ employees (99.9% availability, $200M+ portfolio)", dict(size=11, bold=True)),
         (". FAC-P/PM certified. Public Trust cleared. Layered with two production multi-agent AI systems I designed, coded, and operate myself: ", dict(size=11)),
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 20× cycle compression at Quadratic Digital) and ", dict(size=11)),
@@ -200,7 +200,7 @@ def summary_service_ops():
         ("Federal services delivery executive", dict(size=11, bold=True)),
         (" with 17 years at SSA, culminating in three years as ", dict(size=11)),
         ("Branch Chief sustaining 99.9% availability across 170 nationwide offices", dict(size=11, bold=True)),
-        (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Led a 352-person organization with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
+        (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Manager-of-managers over 12 direct reports + 340 field IT staff serving 7,000+ Hearings Office employees, with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
         ("FedRAMP / ATO governance", dict(size=11, bold=True)),
         (", and CIO-level cross-functional partnership. That service-delivery discipline is now layered with hands-on multi-agent AI fluency — the foundation for AI-augmented federal service operations. Public Trust cleared. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
@@ -211,7 +211,7 @@ def summary_service_ops():
 def summary_federal_it():
     return [
         ("Federal IT executive", dict(size=11, bold=True)),
-        (" with 17 years at the Social Security Administration, culminating in three years as Branch Chief over 170 nationwide Hearings Offices and a 352-person organization. ", dict(size=11)),
+        (" with 17 years at the Social Security Administration, culminating in three years as Branch Chief — manager-of-managers over 12 direct reports and 340 field IT staff across 170 nationwide Hearings Offices serving 7,000+ employees. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
         (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
         ("FAC-P/PM certified", dict(size=11, bold=True)),
@@ -226,7 +226,7 @@ def summary_program_pm():
         ("FAC-P/PM-certified federal program leader", dict(size=11, bold=True)),
         (". Nine years of federal IT leadership at SSA — five years as IT Project Manager directing ", dict(size=11)),
         ("$200M+ Agile portfolios on-time and under-budget", dict(size=11, bold=True)),
-        (", three years as Branch Chief over a 352-person organization. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
+        (", three years as Branch Chief manager-of-managers over 12 direct + 340 field IT staff across 170 offices serving 7,000+ Hearings employees. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
         ("VA cross-agency disability-evidence partnership", dict(size=11, bold=True)),
         (", and the emergency COVID-19 medical document upload system on MySSA (SSA Commissioner Award). 100% direct-report retention; 4 of 4 mentees promoted into PM leadership. Now layered with hands-on multi-agent AI fluency for AI-augmented program offices. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("senior PM/PgM roles at federal contractors and federal services firms", dict(size=11, bold=True)),
@@ -240,8 +240,8 @@ def summary_program_pm():
 
 OUTCOMES_FULL = [
     [
-        ("352-person federal IT service organization", dict(size=11, bold=True)),
-        (" led across 170 nationwide offices at ", dict(size=11)),
+        ("Manager-of-managers as Branch Chief", dict(size=11, bold=True)),
+        (" — 12 direct reports + 340 field IT across 170 nationwide offices serving 7,000+ employees at ", dict(size=11)),
         ("99.9% availability", dict(size=11, bold=True)),
     ],
     [
@@ -606,8 +606,8 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         dates="January 2022 – April 2025",
         location="Baltimore, MD",
         lead=None if brief else (
-            "Led a 352-person service organization (12 direct / 340 indirect reports) across 170 nationwide "
-            "Hearings Offices at 99.9% availability for mission-critical, high-volume platforms serving millions of users."
+            "Manager-of-managers from a 12-direct HQ team overseeing 340 field IT staff across 170 nationwide "
+            "Hearings Offices, delivering mission-critical IT services to 7,000+ Hearings Office employees at 99.9% availability."
         ),
         bullets=BRANCH_BULLETS_BRIEF if brief else BRANCH_BULLETS_FULL,
     )
