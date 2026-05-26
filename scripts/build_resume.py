@@ -706,25 +706,11 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         ref_intro = add_para(doc, space_after=4)
         add_run(
             ref_intro,
-            "Available after first conversation",
+            "References available upon request",
             size=11,
             italic=True,
             color=MUTED,
         )
-        ref_note = add_para(doc, space_after=4)
-        add_run(
-            ref_note,
-            "References provided after first conversation, per professional courtesy.",
-            size=11,
-            italic=True,
-            color=MUTED,
-        )
-        for r in [
-            "1 Director-level reference",
-            "3 SSA peer Branch Chiefs",
-            "Multiple direct reports across SSA + Quadratic Digital",
-        ]:
-            add_bullet(doc, r)
 
         # What I'm Looking For
         add_section_header(doc, "What I'm Looking For")

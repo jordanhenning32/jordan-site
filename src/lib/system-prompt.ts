@@ -66,9 +66,8 @@ ${awards.map((a) => `- ${a.title} (${a.year}) — issued by ${a.issuer}. ${a.det
 Team outcomes (real-world signals, not self-asserted):
 ${teamOutcomes.map((o) => `- ${o.stat} ${o.label}: ${o.detail}`).join("\n")}
 
-References available (provided after first conversation):
-${referencesAvailable.breakdown.map((b) => "- " + b).join("\n")}
-Note: ${referencesAvailable.note}
+References:
+${referencesAvailable.statement}
 
 PRODUCTION AI SYSTEMS JORDAN HAS PERSONALLY BUILT (hands-on, not delegated):
 ${aiBuilds
