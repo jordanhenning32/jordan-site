@@ -73,8 +73,8 @@ export const teamOutcomes: TeamOutcome[] = [
 export const referencesAvailable = {
   note: "References provided after first conversation, per professional courtesy.",
   breakdown: [
-    "2 Federal CIO / Director-level",
-    "2 SSA peer Branch Chiefs",
+    "1 Director-level reference",
+    "3 SSA peer Branch Chiefs",
     "Multiple direct reports across SSA + Quadratic Digital",
   ],
 };

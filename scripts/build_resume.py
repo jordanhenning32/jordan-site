@@ -712,8 +712,8 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
             color=MUTED,
         )
         for r in [
-            "2 Federal CIO / Director-level references",
-            "2 SSA peer Branch Chief references",
+            "1 Director-level reference",
+            "3 SSA peer Branch Chief references",
             "Multiple direct reports across SSA + Quadratic Digital",
         ]:
             add_bullet(doc, r)
