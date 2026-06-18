@@ -143,7 +143,7 @@ def add_role_block(
 
 CONTACT_PARTS = [
     "York, PA",
-    "JordanHenning32@yahoo.com",
+    "jordanhenning32@gmail.com",
     "330-280-0642",
     "jordanhenning.com",
     "linkedin.com/in/jordan-henning",
