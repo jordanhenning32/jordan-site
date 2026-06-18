@@ -51,7 +51,7 @@ export const roleResumes: RoleResume[] = [
     pitch:
       "Resume tailored for senior PM/PgM roles at federal contractors and services firms. Leads with FAC-P/PM certification, federal-scale delivery discipline, and named transformation projects.",
     matchPoints: [
-      "FAC-P/PM certified · $200M+ Agile portfolios delivered on-time, under-budget",
+      "FAC-P/PM certified · $200M+ in IT projects delivered on-time, under-budget",
       "BI platform implementation · 7-ODS consolidation · centralized print savings",
       "100% direct-report retention · 4 of 4 mentees promoted into PM leadership",
     ],

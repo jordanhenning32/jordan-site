@@ -57,11 +57,11 @@ export const aiBuilds: AIBuild[] = [
   },
   {
     name: "Futures Bot",
-    tagline: "Autonomous multi-agent futures trading",
-    status: "Live since Feb 2026 · 24/5 · 62% win rate over ~500 trades",
-    outcome: "62% win rate · ~500 trades · net-positive PnL",
+    tagline: "Autonomous multi-agent trading desk",
+    status: "Personal R&D · multi-agent trading desk",
+    outcome: "Solo-built, end-to-end multi-agent system",
     summary:
-      "A multi-agent trading system that monitors futures markets, generates signals, manages risk, and executes trades autonomously 24/5 — using proprietary strategies developed from 12 years of personal markets research. Live since February 2026: ~8 trades per day across the 24-hour cycle, 62% win rate over the first ~500 trades, net-positive PnL. Built end-to-end as a research platform for pressure-testing multi-agent design patterns under conditions where mistakes cost real money — the same composure-under-fire discipline that runs a service desk runs a trading desk.",
+      "A multi-agent trading desk that ingests futures market data, generates signals, manages risk, and manages orders autonomously — built end-to-end as a personal R&D platform for pressure-testing multi-agent design patterns under live-market conditions. The signal here is the engineering: specialized agents, hard-coded risk guardrails, and operator-level observability, designed and built solo.",
     capabilities: [
       "Real-time futures market data ingestion and feature engineering",
       "Specialized agents for signal generation, risk management, and order execution",
@@ -93,9 +93,52 @@ export const aiBuilds: AIBuild[] = [
       },
       {
         src: "/img/tradingbot.jpg",
-        alt: "Futures Bot system analytics dashboard showing equity curve, win rate, trade count, and drawdown",
-        caption: "Performance analytics · 503 trades · 62% win · drawdown-controlled equity curve",
+        alt: "Futures Bot system analytics dashboard showing equity curve and drawdown observability",
+        caption: "System analytics · equity-curve and drawdown observability",
       },
+    ],
+  },
+  {
+    name: "Shadow Edge Tools",
+    tagline: "NinjaTrader 8 add-on product line",
+    status: "In production · shadowedgetools.com",
+    outcome: "Designed, built, and sold end-to-end",
+    summary:
+      "A commercial product line of NinjaTrader 8 trading add-ons (Bracket Boss, Drawdown Guardian, with more in the pipeline) — owned end-to-end: the add-ons themselves, the storefront, checkout, and support. Full solo ownership from code to go-to-market, shipping real software to paying customers.",
+    capabilities: [
+      "Built and shipped multiple NinjaTrader 8 trading add-ons as commercial products",
+      "Designed and launched the storefront, product catalog, and checkout flow",
+      "Owns the full go-to-market: pricing, licensing, fulfillment, and customer support",
+    ],
+    stack: [
+      "NinjaTrader 8 (NinjaScript / C#)",
+      "Next.js 16",
+      "React 19",
+      "TypeScript",
+      "Tailwind 4",
+      "Lemon Squeezy",
+      "Vercel",
+    ],
+  },
+  {
+    name: "Marketing Ops Console",
+    tagline: "Multi-agent marketing & CRM automation",
+    status: "In production · internal (Shadow Edge Tools)",
+    outcome: "Runs a daily marketing loop end-to-end",
+    summary:
+      "A multi-agent marketing-operations system that runs a daily marketing loop end-to-end: campaign generation, compliance checks, consent-based lead capture, email-nurture queueing, distribution, and analytics reporting — with dry-run safety gates and human approval required before anything goes live. The CRM/marketing counterpart to RFP Factory: agents do the work, a human owns the go/no-go.",
+    capabilities: [
+      "Orchestrates campaign generation, compliance review, and distribution as agent stages",
+      "Consent-based lead capture and email-nurture queueing with audit trails",
+      "Analytics import and daily operations reporting",
+      "Dry-run-by-default safety gates; nothing publishes without human approval",
+    ],
+    stack: [
+      "Python",
+      "Multi-agent orchestration",
+      "Marketing automation",
+      "CRM / lead capture",
+      "Compliance gating",
     ],
   },
 ];

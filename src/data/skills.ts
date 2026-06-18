@@ -21,7 +21,7 @@ export const skillMatrix: SkillCard[] = [
       "Unify fragmented service models across distributed offices into a single delivery framework with shared SLAs, monitoring, and escalation paths.",
     proof: [
       "Standardized service operations across 170 SSA Hearings Offices nationwide",
-      "Designed escalation tiers and SLA governance for a 12-direct, 340-field IT operation across 170 offices",
+      "Designed escalation tiers and SLA governance for a 340-technician field IT operation across 170 offices (12 direct reports)",
       "Aligned procurement, vendor management, and lifecycle refresh to mission outcomes",
     ],
   },
@@ -52,7 +52,7 @@ export const skillMatrix: SkillCard[] = [
     proof: [
       "Process → agent translation: 17 years running real federal service operations means he can spot the workflows that genuinely benefit from agentification (and the ones that don't), so the systems he ships solve actual bottlenecks",
       "RFP Factory — multi-agent proposal automation: parses RFP documents, orchestrates research/strategy/drafting/review agents in parallel, ships polished SME-ready drafts",
-      "Futures Bot — autonomous multi-agent system trading futures markets in real time",
+      "Futures Bot — a personal multi-agent trading desk built end-to-end; ShadowEdge Tools — a shipped NinjaTrader 8 add-on product line with a multi-agent marketing/CRM system running its operations",
       "Production stack: Python 3.14, multi-provider LLM (Anthropic + OpenAI + Gemini), SQLAlchemy 2.0, Alembic, NiceGUI, ThreadPoolExecutor parallelization, prompt engineering at the agent-system level",
       "Implemented agency-wide BI platform (Tableau + WebFocus) at SSA — same instinct for turning data into decisions, scaled to enterprise",
     ],
@@ -73,7 +73,7 @@ export const skillMatrix: SkillCard[] = [
     summary:
       "Match staffing, budget, and infrastructure to actual service demand — on-time, under-budget, audit-ready.",
     proof: [
-      "Multi-year Agile IT portfolios exceeding $200M delivered consistently within scope",
+      "$200M+ in IT projects delivered cumulatively over a 5-year IT PM tenure, consistently within scope",
       "Multimillion-dollar print consolidation generated multi-year savings",
       "Lifecycle infrastructure refresh completed on-time and under-budget",
     ],

@@ -9,9 +9,9 @@ export type MetricItem = {
 
 export const metrics: MetricItem[] = [
   {
-    value: 352,
-    label: "Federal IT operation led",
-    detail: "Manager-of-managers as Branch Chief: 12 direct reports + 340 field IT staff across 170 SSA Hearings Offices, serving 7,000+ employees",
+    value: 340,
+    label: "Field IT operation governed",
+    detail: "As Branch Chief: 12 direct reports (incl. 2 team leads) and IT governance, policy & standards authority over a 340-technician field operation across 170 SSA Hearings Offices, serving 7,000+ employees",
   },
   {
     value: 170,
@@ -38,9 +38,9 @@ export const metrics: MetricItem[] = [
   },
   {
     value: 200,
-    label: "Federal IT portfolio",
+    label: "IT projects delivered",
     suffix: "M+",
     prefix: "$",
-    detail: "Multi-year Agile IT service & infrastructure programs at SSA",
+    detail: "Cumulative IT project value over a 5-year IT Project Manager tenure (2016–2022) at SSA — on-time, under-budget",
   },
 ];

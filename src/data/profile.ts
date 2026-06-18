@@ -2,9 +2,9 @@ export const profile = {
   name: "Jordan Henning",
   shortName: "Jordan",
   title: "Federal Services Delivery Executive",
-  subtitle: "17+ years federal IT · Manager-of-managers across 170 offices · $200M+ portfolio · FAC-P/PM",
+  subtitle: "17+ years federal IT · IT leadership across 170 offices · $200M+ in IT projects delivered · FAC-P/PM",
   tagline:
-    "17 years federal IT at the Social Security Administration. As Branch Chief (2022–2025), led 12 direct reports overseeing 340 field IT staff across 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% availability — $200M+ Agile IT portfolio, FAC-P/PM certified, Public Trust cleared. Then I started building the AI myself. Two production multi-agent systems, designed and operated hands-on: RFP Factory turns 40-hour federal proposal cycles into 2 hours of human review; Futures Bot trades autonomously at a 62% win rate over 500+ trades. Combat veteran (Bronze Star, Purple Heart, 101st Airborne). The executive federal contractors hire when AI capability and federal delivery discipline have to live in the same person.",
+    "17 years federal IT at the Social Security Administration. As Branch Chief (2022–2025), managed 12 direct reports (including 2 team leads) and set IT governance, policy, and standards for a 340-technician field operation across 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% availability. Earlier, as a FAC-P/PM–certified IT Project Manager, delivered $200M+ in IT projects on-time and under-budget. Public Trust cleared. Then I started building the AI myself. Two production multi-agent systems, designed and operated hands-on: RFP Factory turns 40-hour federal proposal cycles into 2 hours of human review; Futures Bot is a multi-agent trading desk built end-to-end; and ShadowEdge Tools is a NinjaTrader 8 add-on product line I designed, built, and ship — run by a multi-agent marketing/CRM system I also built. Combat veteran (Bronze Star, Purple Heart, 101st Airborne). The executive federal contractors hire when AI capability and federal delivery discipline have to live in the same person.",
   email: "JordanHenning32@yahoo.com",
   phone: "330-280-0642",
   location: "York, PA",
@@ -39,6 +39,7 @@ export const portraits = [
 
 export const certifications = [
   "FAC-P/PM (Federal Acquisition Certification for Program & Project Managers), 2020",
+  "AWS Certified AI Practitioner, 2026",
   "MBA — Malone University",
   "B.A., Computer Information Systems — Kent State University",
 ] as const;

@@ -10,7 +10,7 @@ export function BattlefieldBoardroom() {
       id="bridge"
       eyebrow="Battlefield to Boardroom"
       title="The leadership the rest of the field can't replicate."
-      description="Three combat tours with the 101st Airborne — Bronze Star, Purple Heart — translated directly into how I run incident command, scale service organizations, and show up for customers under pressure."
+      description="A combat tour in Iraq with the 101st Airborne — Bronze Star, Purple Heart — translated directly into how I run incident command, scale service organizations, and show up for customers under pressure."
     >
       <div className="space-y-3">
         {battlefieldToBoardroom.map((row, i) => (

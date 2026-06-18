@@ -10,7 +10,7 @@ export const fitProfile = {
       icon: "building",
       title: "Federal services delivery leadership",
       detail:
-        "VP / Director of Service Delivery, GM of Federal AI Services, or Senior Director Federal Programs at federal primes and services firms — where 99.9% uptime, $200M+ portfolio scale, and hands-on AI capability all matter in the same role.",
+        "VP / Director of Service Delivery, GM of Federal AI Services, or Senior Director Federal Programs at federal primes and services firms — where 99.9% uptime, federal portfolio delivery at scale, and hands-on AI capability all matter in the same role.",
     },
     {
       icon: "rocket",

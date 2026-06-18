@@ -54,7 +54,7 @@ export const essays: Essay[] = [
         paragraphs: [
           "I've spent the last year practicing what I'm describing.",
           "RFP Factory took a 40-hour proposal workflow and compressed it to two hours of human review, twenty-times cycle compression on a process I had personally watched fail at scale. Specialized agents handle research, strategy, drafting, and compliance review in parallel. I designed it, coded it, and operate it. The hard part wasn't the syntax. The hard part was knowing which parts of the workflow should stay human, which parts deserved automation, and how to instrument the system so a subject-matter expert could actually trust the output.",
-          "Futures Bot is the same shape: a multi-agent system trading the futures markets 24/5, built on twelve years of personal markets research. Live since February 2026 with a 62% win rate across the first ~500 trades. The architectural question, when does an agent decide, when does a human override, where does the kill-switch live, was the entire game. The Python was the easy part.",
+          "Futures Bot is the same shape: a multi-agent system that trades the futures markets, built end-to-end as a personal R&D platform. The architectural question, when does an agent decide, when does a human override, where does the kill-switch live, was the entire game. The Python was the easy part.",
           "Both systems are evidence of what 2026 engineering actually requires. Not deep syntax wizardry. End-to-end synthesis.",
         ],
       },

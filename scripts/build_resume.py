@@ -161,25 +161,25 @@ def summary_full():
     return [
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
         ("Seventeen years of federal IT at the Social Security Administration", dict(size=11, bold=True)),
-        (", culminating in three years as Branch Chief — manager-of-managers over ", dict(size=11)),
-        ("12 direct reports + 340 field IT staff across 170 nationwide Hearings Offices, serving 7,000+ SSA employees", dict(size=11, bold=True)),
+        (", culminating in three years as Branch Chief — directly managing ", dict(size=11)),
+        ("12 direct reports (incl. 2 team leads), with governance over a 340-technician field operation across 170 nationwide Hearings Offices serving 7,000+ SSA employees", dict(size=11, bold=True)),
         (" at ", dict(size=11)),
         ("99.9% system availability", dict(size=11, bold=True)),
-        (", with multi-year ", dict(size=11)),
-        ("$200M+ Agile IT portfolios", dict(size=11, bold=True)),
-        (" delivered on-time and under-budget. ", dict(size=11)),
+        (". Earlier, as IT Project Manager, ", dict(size=11)),
+        ("delivered $200M+ in IT projects cumulatively", dict(size=11, bold=True)),
+        (", on-time and under-budget. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
         (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
-        ("FAC-P/PM certified", dict(size=11, bold=True)),
+        ("FAC-P/PM certified; AWS Certified AI Practitioner (2026)", dict(size=11, bold=True)),
         ("; familiar with GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA, FedRAMP, ATO governance, and PA Invitation-to-Qualify procurement. Now ", dict(size=11)),
         ("Chief Growth Officer at Quadratic Digital", dict(size=11, bold=True)),
-        (" (14-person federal services firm), where I personally designed, coded, and operate two production multi-agent AI systems: ", dict(size=11)),
+        (" (14-person federal services firm), where I personally designed, coded, and operate production multi-agent AI systems: ", dict(size=11)),
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 40-hour federal proposal cycles compressed to 2 hours — 20× faster) and ", dict(size=11)),
         ("Futures Bot", dict(size=11, bold=True)),
-        (" (autonomous multi-agent trading, live since Feb 2026, 62% win rate over 500+ trades). Combat-tested under three tours with the 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
-        (" — where federal-scale uptime, $200M+ portfolio discipline, procurement fluency, and hands-on AI capability all matter in the same role.", dict(size=11)),
+        (" — where federal-scale uptime, federal portfolio delivery at scale, procurement fluency, and hands-on AI capability all matter in the same role.", dict(size=11)),
     ]
 
 
@@ -188,12 +188,12 @@ def summary_brief():
         ("Federal services delivery executive who codes the AI. ", dict(size=11)),
         ("17 years federal IT at SSA", dict(size=11, bold=True)),
         (" — most recently three years as ", dict(size=11)),
-        ("Branch Chief: manager-of-managers over 12 direct + 340 field IT across 170 offices serving 7,000+ employees (99.9% availability, $200M+ portfolio)", dict(size=11, bold=True)),
-        (". FAC-P/PM certified. Public Trust cleared. Layered with two production multi-agent AI systems I designed, coded, and operate myself: ", dict(size=11)),
+        ("Branch Chief: 12 direct reports (incl. 2 team leads) with governance over a 340-technician field operation across 170 offices serving 7,000+ employees at 99.9% availability", dict(size=11, bold=True)),
+        (". FAC-P/PM and AWS Certified AI Practitioner. Public Trust cleared. Layered with production multi-agent AI systems I designed, coded, and operate myself: ", dict(size=11)),
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 20× cycle compression at Quadratic Digital) and ", dict(size=11)),
         ("Futures Bot", dict(size=11, bold=True)),
-        (" (autonomous multi-agent trading, live since Feb 2026, 62% win rate over ~500 trades). Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery", dict(size=11, bold=True)),
         (" or ", dict(size=11)),
         ("GM Federal AI Services", dict(size=11, bold=True)),
@@ -206,7 +206,7 @@ def summary_service_ops():
         ("Federal services delivery executive", dict(size=11, bold=True)),
         (" with 17 years at SSA, culminating in three years as ", dict(size=11)),
         ("Branch Chief sustaining 99.9% availability across 170 nationwide offices", dict(size=11, bold=True)),
-        (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Manager-of-managers over 12 direct reports + 340 field IT staff serving 7,000+ Hearings Office employees, with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
+        (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Directly managed 12 reports (incl. 2 team leads) with governance over a 340-technician field operation serving 7,000+ Hearings Office employees, with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
         ("FedRAMP / ATO governance", dict(size=11, bold=True)),
         (", and CIO-level cross-functional partnership. That service-delivery discipline is now layered with hands-on multi-agent AI fluency — the foundation for AI-augmented federal service operations. Public Trust cleared. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
@@ -217,10 +217,10 @@ def summary_service_ops():
 def summary_federal_it():
     return [
         ("Federal IT executive", dict(size=11, bold=True)),
-        (" with 17 years at the Social Security Administration, culminating in three years as Branch Chief — manager-of-managers over 12 direct reports and 340 field IT staff across 170 nationwide Hearings Offices serving 7,000+ employees. ", dict(size=11)),
+        (" with 17 years at the Social Security Administration, culminating in three years as Branch Chief — directly managing 12 reports (incl. 2 team leads) with governance over a 340-technician field operation across 170 nationwide Hearings Offices serving 7,000+ employees. ", dict(size=11)),
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
         (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
-        ("FAC-P/PM certified", dict(size=11, bold=True)),
+        ("FAC-P/PM certified; AWS Certified AI Practitioner (2026)", dict(size=11, bold=True)),
         ("; familiar with GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA, FedRAMP, and ATO governance. SSA Commissioner Award (2021) for emergency COVID-19 service delivery. 101st Airborne combat veteran (Bronze Star, Purple Heart). Now layered with hands-on multi-agent AI fluency for federal AI service delivery. Targeting ", dict(size=11)),
         ("senior federal IT leadership roles", dict(size=11, bold=True)),
         (" — federal contractors, federal services firms, defense AI services, or regulated commercial roles where federal experience and clearance are core.", dict(size=11)),
@@ -231,8 +231,8 @@ def summary_program_pm():
     return [
         ("FAC-P/PM-certified federal program leader", dict(size=11, bold=True)),
         (". Nine years of federal IT leadership at SSA — five years as IT Project Manager directing ", dict(size=11)),
-        ("$200M+ Agile portfolios on-time and under-budget", dict(size=11, bold=True)),
-        (", three years as Branch Chief manager-of-managers over 12 direct + 340 field IT staff across 170 offices serving 7,000+ Hearings employees. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
+        ("$200M+ in IT projects cumulatively, on-time and under-budget", dict(size=11, bold=True)),
+        (", three years as Branch Chief directly managing 12 reports (incl. 2 team leads) with governance over a 340-technician field operation across 170 offices serving 7,000+ Hearings employees. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
         ("VA cross-agency disability-evidence partnership", dict(size=11, bold=True)),
         (", and the emergency COVID-19 medical document upload system on MySSA (SSA Commissioner Award). 100% direct-report retention; 4 of 4 mentees promoted into PM leadership. Now layered with hands-on multi-agent AI fluency for AI-augmented program offices. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
         ("senior PM/PgM roles at federal contractors and federal services firms", dict(size=11, bold=True)),
@@ -246,13 +246,13 @@ def summary_program_pm():
 
 OUTCOMES_FULL = [
     [
-        ("Manager-of-managers as Branch Chief", dict(size=11, bold=True)),
-        (" — 12 direct reports + 340 field IT across 170 nationwide offices serving 7,000+ employees at ", dict(size=11)),
+        ("Federal IT leadership as Branch Chief", dict(size=11, bold=True)),
+        (" — 12 direct reports (incl. 2 team leads), governance over a 340-technician field operation across 170 nationwide offices serving 7,000+ employees at ", dict(size=11)),
         ("99.9% availability", dict(size=11, bold=True)),
     ],
     [
-        ("$200M+ Agile IT portfolio", dict(size=11, bold=True)),
-        (" delivered on-time, under-budget over multi-year federal programs", dict(size=11)),
+        ("$200M+ in IT projects delivered", dict(size=11, bold=True)),
+        (" cumulatively as IT Project Manager — on-time, under-budget over a 5-year tenure", dict(size=11)),
     ],
     [
         ("FedRAMP-certified delivery posture", dict(size=11, bold=True)),
@@ -318,23 +318,38 @@ def add_ai_builds(doc, *, brief=False):
     add_run(title_p, "Futures Bot", size=12, bold=True, color=TEXT)
     add_run(title_p, "  —  ", size=11, color=MUTED)
     add_run(title_p, "Autonomous multi-agent futures trading", size=11, italic=True, color=ACCENT)
-    add_run(title_p, "  ·  Live since Feb 2026  ·  62% win rate over ~500 trades", size=10, color=MUTED)
+    add_run(title_p, "  ·  Personal R&D — multi-agent trading desk", size=10, color=MUTED)
 
     body_p = add_para(doc, space_after=4)
     if brief:
         runs = [
             ("Personal R&D platform: ", dict(size=11)),
             ("five-agent committee (Technical Analyst, Bull, Bear, Risk Manager, Devil's Advocate)", dict(size=11, bold=True)),
-            (" running across OpenAI, Claude, and Gemini. Trades futures markets autonomously using strategies built on twelve years of personal markets research. ~8 trades per day across the 24-hour cycle.", dict(size=11)),
+            (" running across OpenAI, Claude, and Gemini. Trades futures markets autonomously across the 24-hour cycle with hard-coded risk guardrails — built end-to-end as a personal R&D platform.", dict(size=11)),
         ]
     else:
         runs = [
-            ("Personal R&D platform: a multi-agent system that monitors futures markets, generates signals, manages risk, and executes trades autonomously, using proprietary strategies developed from twelve years of personal markets research. Live since February 2026 — ~8 trades per day across the 24-hour cycle, 62% win rate over the first ~500 trades, net-positive PnL. ", dict(size=11)),
+            ("Personal R&D platform: a multi-agent system that monitors futures markets, generates signals, manages risk, and manages orders autonomously across the 24-hour cycle, with hard-coded risk guardrails and operator-level observability. Built end-to-end to pressure-test multi-agent design patterns under live-market conditions. ", dict(size=11)),
             ("Five-agent committee (Technical Analyst, Bull, Bear, Risk Manager, Devil's Advocate)", dict(size=11, bold=True)),
             (" running across OpenAI, Claude, and Gemini. Built end-to-end as a research platform for pressure-testing multi-agent design patterns under conditions where mistakes cost real money.", dict(size=11)),
         ]
     for text, kwargs in runs:
         add_run(body_p, text, **kwargs)
+
+    title_p = add_para(doc, space_before=4, space_after=2)
+    add_run(title_p, "Shadow Edge Tools", size=12, bold=True, color=TEXT)
+    add_run(title_p, "  —  ", size=11, color=MUTED)
+    add_run(title_p, "NinjaTrader 8 add-on product line", size=11, italic=True, color=ACCENT)
+    add_run(title_p, "  ·  In production · shadowedgetools.com", size=10, color=MUTED)
+
+    body_p = add_para(doc, space_after=4)
+    add_run(
+        body_p,
+        "A commercial product line of NinjaTrader 8 trading add-ons (Bracket Boss, Drawdown Guardian) "
+        "owned end-to-end — the add-ons, the storefront, checkout, and support. Designed, built, and sold "
+        "solo; a multi-agent marketing/CRM system I also built runs its daily marketing operations.",
+        size=11,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -419,7 +434,7 @@ BRANCH_BULLETS_BRIEF = [
     ],
     [
         ("100% direct-report retention", dict(size=11, bold=True)),
-        (" across three-year tenure as manager-of-managers (12 direct, 340 indirect reports).", dict(size=11)),
+        (" across three-year tenure (12 direct reports, incl. 2 team leads; governance over a 340-technician field operation).", dict(size=11)),
     ],
 ]
 
@@ -485,7 +500,7 @@ ANALYST_BULLETS_BRIEF = [
 
 ARMY_BULLETS_FULL = [
     [
-        ("Three combat tours (Iraq, Afghanistan); awarded the ", dict(size=11)),
+        ("One combat tour (Iraq); awarded the ", dict(size=11)),
         ("Bronze Star", dict(size=11, bold=True)),
         (" and ", dict(size=11)),
         ("Purple Heart", dict(size=11, bold=True)),
@@ -510,6 +525,10 @@ RECOGNITION = [
     [
         ("FAC-P/PM Certification", dict(size=11, bold=True)),
         ("  ·  2020  ·  Federal Acquisition Institute", dict(size=11)),
+    ],
+    [
+        ("AWS Certified AI Practitioner", dict(size=11, bold=True)),
+        ("  ·  2026  ·  Amazon Web Services", dict(size=11)),
     ],
     [
         ("Public Trust Clearance · High Risk Tier", dict(size=11, bold=True)),
@@ -612,7 +631,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         dates="January 2022 – April 2025",
         location="Baltimore, MD",
         lead=None if brief else (
-            "Manager-of-managers from a 12-direct HQ team overseeing 340 field IT staff across 170 nationwide "
+            "Directly managed a 12-person HQ team (incl. 2 team leads) and set IT governance, policy, and standards for a 340-technician field operation across 170 nationwide "
             "Hearings Offices, delivering mission-critical IT services to 7,000+ Hearings Office employees at 99.9% availability."
         ),
         bullets=BRANCH_BULLETS_BRIEF if brief else BRANCH_BULLETS_FULL,
@@ -626,7 +645,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         location="Baltimore, MD",
         lead=None if brief else (
             "Directed multi-year Agile IT service and infrastructure programs supporting nationwide claims and "
-            "hearings systems with portfolios exceeding $200M."
+            "hearings systems — delivering $200M+ in IT projects cumulatively over the tenure."
         ),
         bullets=ITPM_BULLETS_BRIEF if brief else ITPM_BULLETS_FULL,
     )
@@ -647,7 +666,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         add_run(earlier_p, "U.S. Army, 101st Airborne Division", size=11, bold=True)
         add_run(
             earlier_p,
-            " (2001–2009) — three combat tours (Iraq, Afghanistan), Bronze Star, Purple Heart.  ·  ",
+            " (2001–2009) — one combat tour (Iraq), Bronze Star, Purple Heart.  ·  ",
             size=11,
         )
         add_run(
@@ -720,7 +739,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
             best_p,
             (
                 "VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs "
-                "at federal primes and services firms — where 99.9% uptime, $200M+ portfolio scale, and hands-on AI "
+                "at federal primes and services firms — where 99.9% uptime, federal portfolio delivery at scale, and hands-on AI "
                 "capability all matter in the same role. Also: GM, VP, or Practice Director at emerging federal AI "
                 "services firms where someone who can both win federal contracts and sponsor multi-agent AI delivery "
                 "is the job, not a side capability."

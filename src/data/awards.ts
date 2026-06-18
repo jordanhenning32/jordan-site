@@ -47,6 +47,14 @@ export const awards: Award[] = [
       "Federal Acquisition Certification for Program & Project Managers — the federal government's standard credential for IT program leadership.",
     icon: "badge",
   },
+  {
+    title: "AWS Certified AI Practitioner",
+    year: "2026",
+    issuer: "Amazon Web Services",
+    detail:
+      "AWS foundational certification covering AI/ML and generative-AI concepts, services, and responsible-AI practices on AWS.",
+    icon: "badge",
+  },
 ];
 
 export type TeamOutcome = {

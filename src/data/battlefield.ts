@@ -7,7 +7,7 @@ export const battlefieldToBoardroom: BridgeItem[] = [
   {
     military: {
       title: "Resilience under fire",
-      detail: "Three combat tours with the 101st Airborne. Bronze Star, Purple Heart.",
+      detail: "Combat tour in Iraq with the 101st Airborne. Bronze Star, Purple Heart.",
     },
     it: {
       title: "Composure in high-stakes escalations",
@@ -20,8 +20,8 @@ export const battlefieldToBoardroom: BridgeItem[] = [
       detail: "Led infantry units through deployment cycles where adaptability decided outcomes.",
     },
     it: {
-      title: "Manager-of-managers across 170 offices",
-      detail: "12 direct reports overseeing 340 field IT staff nationwide, serving 7,000+ Hearings Office employees.",
+      title: "Federal IT leadership across 170 offices",
+      detail: "12 direct reports (incl. 2 team leads), with IT governance and standards authority over a 340-technician field operation nationwide, serving 7,000+ Hearings Office employees.",
     },
   },
   {

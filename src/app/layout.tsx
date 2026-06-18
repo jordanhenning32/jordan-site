@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const metaDescription =
-  "Jordan Henning — Federal Services Delivery Executive. 17 years federal IT at SSA, culminating as Branch Chief over 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% uptime, with a $200M+ portfolio — now layered with two production multi-agent AI systems built hands-on. The leader federal contractors hire when AI capability and federal delivery discipline have to live in the same person.";
+  "Jordan Henning — Federal Services Delivery Executive. 17 years federal IT at SSA, culminating as Branch Chief over IT for 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% uptime — and earlier $200M+ in IT projects delivered as a FAC-P/PM project manager — now layered with two production multi-agent AI systems built hands-on. The leader federal contractors hire when AI capability and federal delivery discipline have to live in the same person.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jordanhenning.com"),
