@@ -39,7 +39,7 @@ export const roleResumes: RoleResume[] = [
     matchPoints: [
       "Public Trust High Risk clearance · held throughout SSA tenure · eligible to reinstate",
       "17 years SSA · Branch Chief · FAC-P/PM · SSA Commissioner Award (2021)",
-      "101st Airborne combat veteran · Bronze Star · Purple Heart",
+      "101st Airborne combat veteran",
     ],
     file: "/resumes/Jordan-Henning-Resume-Federal-IT.pdf",
     icon: "landmark",

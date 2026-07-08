@@ -73,13 +73,13 @@ export const timeline: Milestone[] = [
     period: "Jan 2001 – Jan 2009",
     role: "Infantry Soldier · Transportation Specialist",
     org: "U.S. Army · 101st Airborne Division",
-    highlight: "Combat tour in Iraq · Bronze Star · Purple Heart.",
+    highlight: "Combat tour in Iraq with the 101st Airborne.",
     bullets: [
       "Iraq deployment with the 101st Airborne.",
       "Developed executive-level leadership, adaptability, resilience, and performance under extreme pressure.",
       "Directly transferable foundation for high-stakes service-delivery escalations and customer engagements.",
     ],
-    tags: ["Bronze Star", "Purple Heart", "101st Airborne", "Combat Veteran"],
+    tags: ["101st Airborne", "Combat Veteran"],
   },
   {
     period: "Jan 2007 – Aug 2008",

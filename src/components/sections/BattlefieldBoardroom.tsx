@@ -10,7 +10,7 @@ export function BattlefieldBoardroom() {
       id="bridge"
       eyebrow="Battlefield to Boardroom"
       title="The leadership the rest of the field can't replicate."
-      description="A combat tour in Iraq with the 101st Airborne — Bronze Star, Purple Heart — translated directly into how I run incident command, scale service organizations, and show up for customers under pressure."
+      description="A combat tour in Iraq with the 101st Airborne translated directly into how I run incident command, scale service organizations, and show up for customers under pressure."
     >
       <div className="space-y-3">
         {battlefieldToBoardroom.map((row, i) => (
@@ -64,12 +64,10 @@ export function BattlefieldBoardroom() {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="mt-10 grid grid-cols-2 gap-4 md:grid-cols-4"
+        className="mt-10 grid grid-cols-2 gap-4"
       >
         {[
-          { k: "3", v: "Combat tours" },
-          { k: "★", v: "Bronze Star" },
-          { k: "♥", v: "Purple Heart" },
+          { k: "1", v: "Combat tour · Iraq" },
           { k: "101st", v: "Airborne Division" },
         ].map((b) => (
           <div key={b.v} className="glass rounded-xl p-4 text-center">

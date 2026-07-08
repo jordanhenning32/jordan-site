@@ -177,7 +177,7 @@ def summary_full():
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 40-hour federal proposal cycles compressed to 2 hours — 20× faster) and ", dict(size=11)),
         ("Futures Bot", dict(size=11, bold=True)),
-        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq. Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
         (" — where federal-scale uptime, federal portfolio delivery at scale, procurement fluency, and hands-on AI capability all matter in the same role.", dict(size=11)),
     ]
@@ -193,7 +193,7 @@ def summary_brief():
         ("RFP Factory", dict(size=11, bold=True)),
         (" (multi-agent proposal automation, 20× cycle compression at Quadratic Digital) and ", dict(size=11)),
         ("Futures Bot", dict(size=11, bold=True)),
-        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (" (a personal multi-agent trading desk built end-to-end). Combat veteran, 101st Airborne — one combat tour in Iraq. Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery", dict(size=11, bold=True)),
         (" or ", dict(size=11)),
         ("GM Federal AI Services", dict(size=11, bold=True)),
@@ -208,7 +208,7 @@ def summary_service_ops():
         ("Branch Chief sustaining 99.9% availability across 170 nationwide offices", dict(size=11, bold=True)),
         (" for mission-critical platforms serving millions of users. Reduced system downtime 20% through ITIL-driven monitoring, dashboards, and continual service improvement. Directly managed 12 reports (incl. 2 team leads) with governance over a 340-technician field operation serving 7,000+ Hearings Office employees, with multimillion-dollar budgeting, full vendor lifecycle management, ", dict(size=11)),
         ("FedRAMP / ATO governance", dict(size=11, bold=True)),
-        (", and CIO-level cross-functional partnership. That service-delivery discipline is now layered with hands-on multi-agent AI fluency — the foundation for AI-augmented federal service operations. Public Trust cleared. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (", and CIO-level cross-functional partnership. That service-delivery discipline is now layered with hands-on multi-agent AI fluency — the foundation for AI-augmented federal service operations. Public Trust cleared. Combat veteran, 101st Airborne. Targeting ", dict(size=11)),
         ("VP/Director Federal Services Delivery, GM Federal AI Services, or Senior Director Federal Programs", dict(size=11, bold=True)),
         (".", dict(size=11)),
     ]
@@ -221,7 +221,7 @@ def summary_federal_it():
         ("Public Trust High Risk clearance", dict(size=11, bold=True)),
         (" held throughout SSA tenure (2008–2025), eligible to reinstate. ", dict(size=11)),
         ("FAC-P/PM certified; AWS Certified AI Practitioner (2026)", dict(size=11, bold=True)),
-        ("; familiar with GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA, FedRAMP, and ATO governance. SSA Commissioner Award (2021) for emergency COVID-19 service delivery. 101st Airborne combat veteran (Bronze Star, Purple Heart). Now layered with hands-on multi-agent AI fluency for federal AI service delivery. Targeting ", dict(size=11)),
+        ("; familiar with GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA, FedRAMP, and ATO governance. SSA Commissioner Award (2021) for emergency COVID-19 service delivery. 101st Airborne combat veteran. Now layered with hands-on multi-agent AI fluency for federal AI service delivery. Targeting ", dict(size=11)),
         ("senior federal IT leadership roles", dict(size=11, bold=True)),
         (" — federal contractors, federal services firms, defense AI services, or regulated commercial roles where federal experience and clearance are core.", dict(size=11)),
     ]
@@ -234,7 +234,7 @@ def summary_program_pm():
         ("$200M+ in IT projects cumulatively, on-time and under-budget", dict(size=11, bold=True)),
         (", three years as Branch Chief directly managing 12 reports (incl. 2 team leads) with governance over a 340-technician field operation across 170 offices serving 7,000+ Hearings employees. Named transformation work: agency-wide BI platform implementation (Tableau + WebFocus), 7-ODS consolidation into a single Appeals Database, centralized print services consolidation (multimillion-dollar savings), ", dict(size=11)),
         ("VA cross-agency disability-evidence partnership", dict(size=11, bold=True)),
-        (", and the emergency COVID-19 medical document upload system on MySSA (SSA Commissioner Award). 100% direct-report retention; 4 of 4 mentees promoted into PM leadership. Now layered with hands-on multi-agent AI fluency for AI-augmented program offices. Combat veteran, 101st Airborne (Bronze Star, Purple Heart). Targeting ", dict(size=11)),
+        (", and the emergency COVID-19 medical document upload system on MySSA (SSA Commissioner Award). 100% direct-report retention; 4 of 4 mentees promoted into PM leadership. Now layered with hands-on multi-agent AI fluency for AI-augmented program offices. Combat veteran, 101st Airborne. Targeting ", dict(size=11)),
         ("senior PM/PgM roles at federal contractors and federal services firms", dict(size=11, bold=True)),
         (" where federal-scale discipline meets modern delivery.", dict(size=11)),
     ]
@@ -499,13 +499,7 @@ ANALYST_BULLETS_BRIEF = [
 ]
 
 ARMY_BULLETS_FULL = [
-    [
-        ("One combat tour (Iraq); awarded the ", dict(size=11)),
-        ("Bronze Star", dict(size=11, bold=True)),
-        (" and ", dict(size=11)),
-        ("Purple Heart", dict(size=11, bold=True)),
-        (".", dict(size=11)),
-    ],
+    "One combat tour in Iraq with the 101st Airborne Division.",
     "Developed executive-level leadership, adaptability, resilience, and performance under extreme pressure — directly transferable to high-stakes federal service delivery and incident-command escalations.",
 ]
 
@@ -513,14 +507,6 @@ RECOGNITION = [
     [
         ("SSA Commissioner Award", dict(size=11, bold=True)),
         ("  ·  2021  ·  Presented by Acting Commissioner Kilolo Kijakazi for COVID-19 emergency document upload delivery", dict(size=11)),
-    ],
-    [
-        ("Bronze Star", dict(size=11, bold=True)),
-        ("  ·  2006  ·  U.S. Army (Iraq combat tour)", dict(size=11)),
-    ],
-    [
-        ("Purple Heart", dict(size=11, bold=True)),
-        ("  ·  2006  ·  U.S. Army", dict(size=11)),
     ],
     [
         ("FAC-P/PM Certification", dict(size=11, bold=True)),
@@ -666,7 +652,7 @@ def build_doc(*, brief=False, summary_runs=None) -> Document:
         add_run(earlier_p, "U.S. Army, 101st Airborne Division", size=11, bold=True)
         add_run(
             earlier_p,
-            " (2001–2009) — one combat tour (Iraq), Bronze Star, Purple Heart.  ·  ",
+            " (2001–2009) — one combat tour (Iraq).  ·  ",
             size=11,
         )
         add_run(

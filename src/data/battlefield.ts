@@ -7,7 +7,7 @@ export const battlefieldToBoardroom: BridgeItem[] = [
   {
     military: {
       title: "Resilience under fire",
-      detail: "Combat tour in Iraq with the 101st Airborne. Bronze Star, Purple Heart.",
+      detail: "Combat tour in Iraq with the 101st Airborne.",
     },
     it: {
       title: "Composure in high-stakes escalations",

@@ -44,8 +44,6 @@ export const metadata: Metadata = {
     "VP Federal Services",
     "Director Federal Programs",
     "Quadratic Digital",
-    "Bronze Star",
-    "Purple Heart",
     "101st Airborne",
     "service-disabled veteran",
   ],
@@ -97,8 +95,6 @@ const personSchema = {
   hasCredential: [
     "FAC-P/PM (Federal Acquisition Certification for Program & Project Managers)",
     "Public Trust High Risk Clearance (eligible to reinstate)",
-    "Bronze Star",
-    "Purple Heart",
     "SSA Commissioner Award (2021)",
   ],
   knowsAbout: [

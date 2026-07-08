@@ -84,8 +84,6 @@ export function Hero() {
             <span className="text-border">•</span>
             <span>FAC-P/PM Certified</span>
             <span className="text-border">•</span>
-            <span>Bronze Star · Purple Heart</span>
-            <span className="text-border">•</span>
             <span>SSA Commissioner Award</span>
             <span className="text-border">•</span>
             <span>MBA, Malone</span>

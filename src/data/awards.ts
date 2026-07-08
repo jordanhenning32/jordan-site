@@ -24,22 +24,6 @@ export const awards: Award[] = [
     icon: "award",
   },
   {
-    title: "Bronze Star",
-    year: "2006",
-    issuer: "U.S. Army · 101st Airborne Division",
-    detail:
-      "Awarded for meritorious service in a combat zone during a tour in Iraq.",
-    icon: "star",
-  },
-  {
-    title: "Purple Heart",
-    year: "2006",
-    issuer: "U.S. Army",
-    detail:
-      "Awarded for wounds received in action during the same tour in Iraq.",
-    icon: "heart",
-  },
-  {
     title: "FAC-P/PM Certification",
     year: "2020",
     issuer: "Federal Acquisition Institute",
