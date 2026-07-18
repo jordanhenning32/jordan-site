@@ -14,16 +14,15 @@ export const timeline: Milestone[] = [
     role: "Chief Growth Officer",
     org: "Quadratic Digital",
     highlight:
-      "Driving growth at a 14-person services firm serving state, federal, and prime-subcontract clients — pairing proven go-to-market discipline with the multi-agent AI tooling I build hands-on.",
+      "Architect, build, and operate the firm's production multi-agent AI systems — and lead their delivery — while driving cross-sector growth. Hands-on AI delivery paired with go-to-market strategy at a 14-person SDVOSB federal IT services firm.",
     bullets: [
-      "Designing and shipping RFP Factory — a multi-agent proposal automation system that compresses 40-hour proposal cycles into 2 hours of human review, a 20× reduction no traditional GTM team can match.",
-      "Subcontracting multiple roles to Nava on CMS modernization programs — embedding Quadratic into a marquee civic-tech delivery prime that supports healthcare-focused federal modernization work.",
-      "Won two PA Invitation-to-Qualify (ITQ) vehicles and qualified Quadratic into the PA Small Disadvantaged Business program; pursuing capture across GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone vehicles, and IDIQ/BPA structures.",
-      "Operates a FedRAMP-certified delivery posture — AI-services builds run alongside ATO-aligned controls so the federal compliance baseline is the starting point, not an afterthought.",
-      "Executing cross-sector growth strategy across federal and commercial markets — pricing architecture, solution scoping, offer-portfolio development.",
-      "Winning high-value strategic contracts and building executive partnerships in highly regulated environments where service delivery and AI maturity have to coexist.",
+      "Designed and ship RFP Factory — a 34-agent proposal-automation system that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
+      "Built the multi-agent marketing/CRM system that runs the firm's content and lead operations end-to-end behind human-approval safety gates.",
+      "Operate a FedRAMP-aligned delivery posture — AI builds run alongside ATO-aligned controls so the federal compliance baseline is the starting point, not an afterthought.",
+      "Embedded the firm as a subcontractor to Nava on CMS modernization; won two PA Invitation-to-Qualify (ITQ) vehicles and qualified into the PA Small Disadvantaged Business program.",
+      "Lead cross-sector growth strategy across federal and commercial markets — pricing, solution scoping, and capture.",
     ],
-    tags: ["Federal Procurement", "FedRAMP", "Nava Subcontract (CMS)", "Multi-Agent Systems", "PA ITQ ×2"],
+    tags: ["Multi-Agent AI", "AI Delivery", "FedRAMP", "Nava / CMS", "Federal + Commercial"],
   },
   {
     period: "Jan 2022 – Apr 2025",
