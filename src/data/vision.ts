@@ -18,9 +18,9 @@ export const vision = {
         "I architect and operate production multi-agent systems myself — which is exactly what lets me lead the engineers who build them. I set direction, review the architecture, hire the specialists, and know what I'm asking because I've shipped it. Leadership is the role; the hands-on build is the authority behind it.",
     },
     {
-      title: "Process → agent translation",
+      title: "Read the process — fast",
       detail:
-        "Seventeen years running real service operations taught me which workflows actually deserve to become agents — and which are fine as SOPs. I turn typical work processes into agent helpers that ship value, not novelty.",
+        "Grasping a new workflow quickly is the real skill in AI product work — and the one I lean on hardest. Seventeen years running real service operations means I read a process fast, tell the workflows that genuinely deserve to become agents from the demos nobody wants to maintain, and ship in weeks, not quarters.",
     },
     {
       title: "Bias toward shipping the dream",

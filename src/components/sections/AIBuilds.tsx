@@ -19,7 +19,7 @@ export function AIBuilds() {
       id="builds"
       eyebrow="Production builds"
       title="Built these myself. This is the work I lead."
-      description="Production multi-agent systems Jordan designed, coded, and operates hands-on — the depth behind the leadership. The next role is leading the AI organization that ships systems like these: chairing the architecture reviews, hiring and directing the engineers, and owning the delivery outcome — with the authority that comes from having built and shipped the work himself."
+      description="Every system here began as a workflow Jordan had already run — which is the point: what actually makes an AI product work is understanding the process deeply and quickly enough to know what deserves to be automated, where it breaks, and where a human stays in the loop. These are production multi-agent systems he designed, coded, and operates hands-on — the depth behind the leadership. The next role is leading the AI organization that ships systems like these: chairing the architecture reviews, hiring and directing the engineers, and owning the delivery outcome — with the authority that comes from having built and shipped the work himself."
     >
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         {aiBuilds.map((b, i) => {

@@ -37,6 +37,15 @@ export function Hero() {
           >
             {profile.tagline}
           </motion.p>
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.2 }}
+            className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/75"
+          >
+            The hard part of an AI product isn’t the model — it’s reading the
+            workflow fast enough to know what to build.
+          </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
