@@ -12,7 +12,7 @@ export const profile = {
   github: "https://github.com/jordanhenning32?tab=repositories",
   githubHandle: "jordanhenning32",
   calendlyUrl: "https://calendly.com/jordanhenning32/15-min-intro-meeting",
-  resumeDefault: "/resumes/Jordan-Henning-Resume.pdf",
+  resumeDefault: "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf",
   clearance: "Public Trust · High Risk",
   clearanceDetail:
     "Held throughout 17-year SSA tenure (2008–2025) — federal background investigation. Eligible to reinstate.",

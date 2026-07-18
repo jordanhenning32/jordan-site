@@ -17,6 +17,20 @@ export type RoleResume = {
 
 export const roleResumes: RoleResume[] = [
   {
+    id: "ai-delivery",
+    label: "AI Engineering & Delivery Leadership",
+    shortLabel: "AI Delivery Leadership",
+    pitch:
+      "Resume tailored for Head of AI, Director of AI Engineering, AI Delivery Lead, and Federal AI services leadership. Leads with five production multi-agent systems built hands-on, delivery-team leadership, and the federal record that makes the combination rare.",
+    matchPoints: [
+      "5 production multi-agent AI systems designed, coded, and operated hands-on",
+      "RFP Factory — 34-agent federal proposal automation, 40h → 2h (~20×), in production",
+      "Led 12 reports + IT governance across 170 offices at 99.9% availability; $200M+ delivered",
+    ],
+    file: "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf",
+    icon: "cpu",
+  },
+  {
     id: "service-ops",
     label: "Federal Service Delivery / Operations",
     shortLabel: "Federal Service Delivery",
@@ -62,10 +76,10 @@ export const roleResumes: RoleResume[] = [
 
 export const universalResumes = {
   full: {
-    label: "Master resume (~3-4 pages)",
+    label: "AI leadership resume (2 pages, send-ready)",
     description:
-      "Comprehensive version for employer applications and recruiter hand-offs. Full executive summary with vehicle fluency, named AI builds, and complete role-by-role detail. This is the one to send.",
-    file: "/resumes/Jordan-Henning-Resume.pdf",
+      "The default — ATS-friendly and send-ready. Leads with the five production AI systems, AI delivery leadership, and the federal record that makes the combination rare. This is the one to send.",
+    file: "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf",
   },
   brief: {
     label: "2-page brief (ATS-friendly)",
