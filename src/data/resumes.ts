@@ -15,77 +15,53 @@ export type RoleResume = {
     | "trending";
 };
 
+// One send-ready fusion résumé serves both lanes; the buttons tailor the
+// framing a recruiter reads, then download the same strong AI-leadership PDF.
+const AI_RESUME = "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf";
+
 export const roleResumes: RoleResume[] = [
   {
     id: "ai-delivery",
     label: "AI Engineering & Delivery Leadership",
     shortLabel: "AI Delivery Leadership",
     pitch:
-      "Resume tailored for Head of AI, Director of AI Engineering, AI Delivery Lead, and Federal AI services leadership. Leads with five production multi-agent systems built hands-on, delivery-team leadership, and the federal record that makes the combination rare.",
+      "For Head of AI, Director of AI Engineering, AI Delivery Lead, and GenAI Engineering Manager — federal or commercial. Leads with five production multi-agent systems built hands-on and the delivery-team leadership to ship them.",
     matchPoints: [
       "5 production multi-agent AI systems designed, coded, and operated hands-on",
-      "RFP Factory — 34-agent federal proposal automation, 40h → 2h (~20×), in production",
-      "Led 12 reports + IT governance across 170 offices at 99.9% availability; $200M+ delivered",
+      "Multi-provider orchestration, RAG, and eval/review gates; a dev system that ships verified code",
+      "Led multi-tier delivery teams · $200M+ delivered · 99.9% uptime discipline",
     ],
-    file: "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf",
+    file: AI_RESUME,
     icon: "cpu",
   },
   {
-    id: "service-ops",
-    label: "Federal Service Delivery / Operations",
-    shortLabel: "Federal Service Delivery",
+    id: "federal-ai",
+    label: "Federal / GovCon AI Delivery Leadership",
+    shortLabel: "Federal AI Delivery",
     pitch:
-      "Resume tailored for federal AI services and services-delivery leadership at primes and contractors — GM Federal AI Services and senior delivery roles. Leads with 99.9% uptime, 170-office scale, and production multi-agent AI capability layered on enterprise service operations.",
+      "For GM/VP/Director of Federal AI Services and AI delivery leadership at primes and emerging federal-AI firms — where winning federal work and leading multi-agent AI delivery is the job. The federal moat plus hands-on AI.",
     matchPoints: [
-      "99.9% availability sustained across 170 nationwide offices for millions of users",
-      "20% downtime reduction via ITIL-driven monitoring and continual service improvement",
-      "Multimillion-dollar vendor lifecycle management · 24/7 federal service operations",
+      "Public Trust cleared (eligible to reinstate) · FAC-P/PM · FedRAMP / ATO posture",
+      "RFP Factory — 34-agent federal proposal automation, 40h → 2h, in production",
+      "17 yrs federal IT · Branch Chief, 170 offices, 99.9% uptime · $200M+ delivered",
     ],
-    file: "/resumes/Jordan-Henning-Resume-Service-Ops.pdf",
-    icon: "server",
-  },
-  {
-    id: "federal-it",
-    label: "Federal IT Leadership",
-    shortLabel: "Federal IT Leadership",
-    pitch:
-      "Resume tailored for federal contractors and federal services firms — defense AI, civilian-agency programs, and prime/sub roles where federal experience, clearance, and FAC-P/PM are core requirements.",
-    matchPoints: [
-      "Public Trust High Risk clearance · held throughout SSA tenure · eligible to reinstate",
-      "17 years SSA · Branch Chief · FAC-P/PM · SSA Commissioner Award (2021)",
-      "101st Airborne combat veteran",
-    ],
-    file: "/resumes/Jordan-Henning-Resume-Federal-IT.pdf",
+    file: AI_RESUME,
     icon: "landmark",
-  },
-  {
-    id: "program-pm",
-    label: "Project / Program Management",
-    shortLabel: "Project / Program Mgmt",
-    pitch:
-      "Resume tailored for senior PM/PgM roles at federal contractors and services firms. Leads with FAC-P/PM certification, federal-scale delivery discipline, and named transformation projects.",
-    matchPoints: [
-      "FAC-P/PM certified · $200M+ in IT projects delivered on-time, under-budget",
-      "BI platform implementation · 7-ODS consolidation · centralized print savings",
-      "100% direct-report retention · 4 of 4 mentees promoted into PM leadership",
-    ],
-    file: "/resumes/Jordan-Henning-Resume-Program-PM.pdf",
-    icon: "kanban",
   },
 ];
 
 export const universalResumes = {
   full: {
-    label: "AI leadership resume (2 pages, send-ready)",
+    label: "Send-ready résumé (2 pages)",
     description:
       "The default — ATS-friendly and send-ready. Leads with the five production AI systems, AI delivery leadership, and the federal record that makes the combination rare. This is the one to send.",
-    file: "/resumes/Jordan-Henning-Resume-AI-Delivery.pdf",
+    file: AI_RESUME,
   },
   brief: {
-    label: "2-page brief (ATS-friendly)",
+    label: "Same résumé · ATS-optimized",
     description:
-      "Tightened to 2 pages with brief bullets. Use for cold ATS uploads where length is constrained.",
-    file: "/resumes/Jordan-Henning-Resume-Brief.pdf",
+      "The same 2-page résumé, single-column with selectable text — safe for cold ATS uploads.",
+    file: AI_RESUME,
   },
 } as const;
 
@@ -95,11 +71,6 @@ export const tailoredResumes = [
     label: universalResumes.full.label,
     description: universalResumes.full.description,
     file: universalResumes.full.file,
-  },
-  {
-    label: universalResumes.brief.label,
-    description: universalResumes.brief.description,
-    file: universalResumes.brief.file,
   },
   ...roleResumes.map((r) => ({
     label: r.label,

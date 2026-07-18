@@ -1,6 +1,6 @@
 # Jordan Henning — Personal Site
 
-Executive job-hunt site for federal services delivery + federal AI services leadership roles. Single-page composition with an animated metrics dashboard, interactive timeline, AI-builds showcase with live screenshots, skills radar, "Battlefield to Boardroom" leadership bridge, tailored resumes, long-form playbook + essay, and a Claude-powered concierge chatbot that answers JD-specific fit questions.
+Personal site for AI engineering & delivery leadership roles (federal + commercial). Single-page composition with an animated metrics dashboard, interactive timeline, AI-builds showcase with live screenshots, skills radar, "Battlefield to Boardroom" leadership bridge, tailored resumes, long-form playbook + essay, and a Claude-powered concierge chatbot that answers JD-specific fit questions.
 
 ## Stack
 - Next.js 16 (App Router, Turbopack) + React 19 + TypeScript
