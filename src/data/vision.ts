@@ -10,7 +10,7 @@ export const vision = {
     {
       title: "End-to-end delivery sight",
       detail:
-        "Holds the whole arc in my head — service delivery, contract performance, infrastructure, capture posture, and the customer outcome — so every decision is shaped by the destination, not the artifact in front of me.",
+        "Holds the whole arc in my head — architecture, delivery, reliability and cost, compliance, and the user outcome — so every decision is shaped by the destination, not the artifact in front of me.",
     },
     {
       title: "Leads the team, ships the systems",

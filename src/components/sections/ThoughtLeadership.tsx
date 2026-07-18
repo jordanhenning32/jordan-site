@@ -16,7 +16,7 @@ export function ThoughtLeadership() {
       id="thoughts"
       eyebrow="Insights"
       title="Perspectives shaping the next era of IT services."
-      description="Short, opinionated takes on the operating model behind world-class HPC, AI, and managed-services delivery. Start with the featured long-form pieces below — or click into any short take."
+      description="Short, opinionated takes on leading AI delivery — how modern teams ship production agentic systems that are grounded, gated, and trusted. Start with the featured long-form pieces below — or click into any short take."
     >
       <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-2">
         <FeaturedWork
