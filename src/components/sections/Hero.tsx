@@ -80,9 +80,9 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.45 }}
             className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted"
           >
-            <span>Public Trust Cleared</span>
+            <span>Public Trust · Reinstatement Eligible</span>
             <span className="text-border">•</span>
-            <span>FAC-P/PM Certified</span>
+            <span>Former FAC-P/PM-IT</span>
             <span className="text-border">•</span>
             <span>SSA Commissioner Award</span>
             <span className="text-border">•</span>

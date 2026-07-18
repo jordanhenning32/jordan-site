@@ -24,11 +24,11 @@ export const awards: Award[] = [
     icon: "award",
   },
   {
-    title: "FAC-P/PM Certification",
+    title: "FAC-P/PM-IT Certification (Lapsed)",
     year: "2020",
     issuer: "Federal Acquisition Institute",
     detail:
-      "Federal Acquisition Certification for Program & Project Managers — the federal government's standard credential for IT program leadership.",
+      "Federal Acquisition Certification for Program & Project Managers — Information Technology (FAC-P/PM-IT): the federal government's standard credential for IT program leadership. Earned 2020; now lapsed.",
     icon: "badge",
   },
   {

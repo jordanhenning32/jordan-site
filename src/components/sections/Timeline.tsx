@@ -12,8 +12,8 @@ export function Timeline() {
     <Section
       id="timeline"
       eyebrow="Career arc"
-      title="From combat tours to executive IT leadership."
-      description="A 25-year arc through the 101st Airborne, federal IT delivery at scale, and now commercial growth leadership. Click any milestone for the detail."
+      title="From one combat tour to AI delivery leadership."
+      description="A 25-year arc through the 101st Airborne, federal IT delivery at scale, and now shipping and leading production AI. Click any milestone for the detail."
     >
       <div className="relative">
         <div

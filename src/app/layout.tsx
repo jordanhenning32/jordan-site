@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const metaDescription =
-  "Jordan Henning — AI Engineering & Delivery Leader who ships production multi-agent AI systems himself, grounded in 17 years leading federal IT delivery at SSA (Branch Chief over IT for 170 offices at 99.9% uptime; $200M+ delivered as a FAC-P/PM PM). RFP Factory compresses 40-hour federal proposals into 2 hours of review. He leads AI delivery teams and builds the AI — federal or commercial. Public Trust cleared. Combat veteran, 101st Airborne.";
+  "Jordan Henning — AI Engineering & Delivery Leader who ships production multi-agent AI systems himself, grounded in 17 years leading federal IT delivery at SSA (Branch Chief over IT for 170 offices at 99.9% uptime; $200M+ delivered as a FAC-P/PM-IT PM). RFP Factory compresses 40-hour federal proposals into 2 hours of review. He leads AI delivery teams and builds the AI — federal or commercial. Public Trust clearance held 2008–2025 — eligible to reinstate. Combat veteran, 101st Airborne.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jordanhenning.com"),
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     "Federal AI Services",
     "GovCon AI delivery",
     "Federal IT Leadership",
-    "FAC-P/PM",
+    "FAC-P/PM-IT",
     "FedRAMP",
     "Public Trust clearance",
     "Branch Chief SSA",
@@ -93,7 +93,7 @@ const personSchema = {
     { "@type": "CollegeOrUniversity", name: "Kent State University" },
   ],
   hasCredential: [
-    "FAC-P/PM (Federal Acquisition Certification for Program & Project Managers)",
+    "FAC-P/PM-IT (Federal Acquisition Certification for Program & Project Managers — Information Technology), lapsed",
     "Public Trust High Risk Clearance (eligible to reinstate)",
     "SSA Commissioner Award (2021)",
   ],

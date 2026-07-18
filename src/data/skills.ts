@@ -74,7 +74,7 @@ export const skillMatrix: SkillCard[] = [
     summary:
       "Federal procurement fluency built across SSA, the State of PA, and Quadratic Digital — knows which vehicle to pursue, which compliance posture to maintain, and which prime relationships unlock specific markets.",
     proof: [
-      "FAC-P/PM certified · GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA pursuit experience",
+      "Former FAC-P/PM-IT · GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone, IDIQ/BPA pursuit experience",
       "Two PA Invitation-to-Qualify (ITQ) vehicles obtained at Quadratic · qualified into PA Small Disadvantaged Business program",
       "FedRAMP-aligned delivery posture · ATO governance across SSA mission-critical systems and Quadratic Digital programs",
       "Subcontracting Quadratic into Nava on CMS modernization — embedded into a marquee civic-tech federal prime",

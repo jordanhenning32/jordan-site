@@ -41,7 +41,7 @@ export const timeline: Milestone[] = [
   },
   {
     period: "Sep 2016 – Jan 2022",
-    role: "IT Project Manager (FAC-P/PM Certified)",
+    role: "IT Project Manager (FAC-P/PM-IT Certified)",
     org: "Social Security Administration",
     location: "Baltimore, MD",
     highlight: "Delivered $200M+ in IT projects cumulatively over the tenure — on-time, under-budget, millions saved.",
@@ -53,7 +53,7 @@ export const timeline: Milestone[] = [
       "Spearheaded the emergency COVID-19 medical document upload system on MySSA — earned a prestigious SSA Commissioner Award.",
       "Leveraged ServiceNow for ITSM, workflow automation, incident tracking, and self-service at enterprise scale.",
     ],
-    tags: ["FAC-P/PM", "$200M+ Delivered", "VA Cross-Agency", "Commissioner Award", "ServiceNow"],
+    tags: ["FAC-P/PM-IT", "$200M+ Delivered", "VA Cross-Agency", "Commissioner Award", "ServiceNow"],
   },
   {
     period: "Aug 2008 – Sep 2016",
