@@ -25,7 +25,7 @@ export const timeline: Milestone[] = [
     tags: ["Multi-Agent AI", "AI Delivery", "FedRAMP", "Nava / CMS", "Federal + Commercial"],
   },
   {
-    period: "Jan 2022 – Apr 2025",
+    period: "Dec 2022 – Sep 2025",
     role: "Branch Chief, Hearings Office IT Oversight",
     org: "Social Security Administration",
     location: "Baltimore, MD",
@@ -40,7 +40,7 @@ export const timeline: Milestone[] = [
     tags: ["Service Delivery", "ITIL", "FedRAMP / ATO", "12 Direct Reports", "170 Offices · 7K+ Users"],
   },
   {
-    period: "Sep 2016 – Jan 2022",
+    period: "Sep 2016 – Dec 2022",
     role: "IT Project Manager (FAC-P/PM-IT Certified)",
     org: "Social Security Administration",
     location: "Baltimore, MD",
@@ -69,7 +69,7 @@ export const timeline: Milestone[] = [
     tags: ["Tier-3 Support", "Production Reliability", "MySSA", "Field Operations"],
   },
   {
-    period: "Jan 2001 – Jan 2009",
+    period: "Mar 2001 – Mar 2009",
     role: "Infantry Soldier · Transportation Specialist",
     org: "U.S. Army · 101st Airborne Division",
     highlight: "Combat tour in Iraq with the 101st Airborne.",
