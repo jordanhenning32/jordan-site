@@ -19,7 +19,7 @@ export const profile = {
   workArrangement:
     "Based in York, PA · Open to remote · Open to in-office · Has led teams in both. Optimizing for the right job fit.",
   availability:
-    "Left SSA after 17 years to build in the private sector — Quadratic Digital was the proving ground, where I design and ship multi-agent AI systems. Now looking to lead AI delivery as a hands-on player-coach: setting the architecture and quality bar and leading the team that ships agentic systems, where nearly a decade of federal delivery discipline and hands-on building compound. Looking for platform fit, not another title.",
+    "After 17 years at SSA, I moved into the private sector to build — Quadratic Digital is where I design and ship multi-agent AI systems hands-on. My focus is leading AI delivery as a hands-on player-coach: setting the architecture and quality bar and leading the team that ships agentic systems, where nearly a decade of federal delivery discipline and hands-on building compound. Platform fit over title.",
 } as const;
 
 export const portraits = [

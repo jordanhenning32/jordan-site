@@ -18,7 +18,7 @@ export function Hero() {
             className="mb-5 inline-flex items-center gap-2 rounded-full border border-border/70 bg-background-elev/70 px-3 py-1.5 text-xs font-medium uppercase tracking-widest text-accent"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-accent shadow-[0_0_10px_rgba(56,189,248,0.8)]" />
-            Available for AI engineering & delivery leadership
+            AI engineering & delivery leadership
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 16 }}

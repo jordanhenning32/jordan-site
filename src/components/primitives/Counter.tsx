@@ -17,10 +17,16 @@ export function Counter({
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-15%" });
-  const [display, setDisplay] = useState(0);
+  // Seed with the final value so SSR / no-JS render the real number (not "0").
+  const [display, setDisplay] = useState(value);
 
   useEffect(() => {
-    if (!inView) return;
+    if (!inView) {
+      // On the client, before the metric scrolls into view, reset to 0 so the
+      // count-up animation has somewhere to start from.
+      setDisplay(0);
+      return;
+    }
     const start = performance.now();
     let raf = 0;
     const tick = (now: number) => {
