@@ -76,7 +76,7 @@ export const timeline: Milestone[] = [
     bullets: [
       "Iraq deployment with the 101st Airborne.",
       "Developed executive-level leadership, adaptability, resilience, and performance under extreme pressure.",
-      "Directly transferable foundation for high-stakes service-delivery escalations and customer engagements.",
+      "Directly transferable foundation for high-stakes technical leadership and decision-making under pressure.",
     ],
     tags: ["101st Airborne", "Combat Veteran"],
   },
