@@ -2,9 +2,9 @@ export const profile = {
   name: "Jordan Henning",
   shortName: "Jordan",
   title: "AI Engineering & Delivery Leader",
-  subtitle: "Ships production multi-agent AI · a decade leading federal IT delivery at SSA · $200M+ delivered · Former FAC-P/PM-IT",
+  subtitle: "Builds multi-agent AI systems hands-on · a decade leading federal IT delivery at SSA · $200M+ delivered · Former FAC-P/PM-IT",
   tagline:
-    "An AI engineering and delivery leader who ships the systems himself. I architect and operate production multi-agent AI: RFP Factory compresses 40-hour federal proposal cycles into 2 hours of human review; a multi-agent trading desk built end-to-end; and the multi-agent marketing system that runs my ShadowEdge Tools product line. That hands-on depth sits on 17 years of federal service at the Social Security Administration, nearly a decade of it leading IT delivery — as Branch Chief (2022–2025) I ran 12 direct reports (incl. 2 team leads) and set IT governance for a 340-technician operation across 170 nationwide offices at 99.9% availability; earlier, as a FAC-P/PM-IT–certified IT Project Manager (2016–2022), I led delivery of $200M+ in IT projects across matrixed teams, on-time and under-budget. Public Trust background investigation (held 2008–2025; eligible to reinstate). Combat veteran (101st Airborne). I build the AI myself, and I've led IT delivery at federal scale for nearly a decade — so I'm ready to lead the AI engineering team that ships it, with an authority most leaders can't bring.",
+    "An AI engineering and delivery leader who ships the systems himself. I design, build, and run multi-agent AI systems end-to-end: RFP Factory (in production at Quadratic) compresses 40-hour federal proposal cycles into 2 hours of human review; a multi-agent trading desk built end-to-end; and the multi-agent marketing system that runs my ShadowEdge Tools product line. That hands-on depth sits on 17 years of federal service at the Social Security Administration, nearly a decade of it leading IT delivery — as Branch Chief (2022–2025) I ran 12 direct reports (incl. 2 team leads) and set IT governance for a 340-technician operation across 170 nationwide offices at 99.9% availability; earlier, as a FAC-P/PM-IT–certified IT Project Manager (2016–2022), I led delivery of $200M+ in IT projects across matrixed teams, on-time and under-budget. Public Trust background investigation (held 2008–2025; eligible to reinstate). Combat veteran (101st Airborne). I build the AI myself, and I've led IT delivery at federal scale for nearly a decade — so I'm ready to lead the AI engineering team that ships it, with an authority most leaders can't bring.",
   email: "jordanhenning32@gmail.com",
   phone: "330-280-0642",
   location: "York, PA",
@@ -19,7 +19,7 @@ export const profile = {
   workArrangement:
     "Based in York, PA · Open to remote · Open to in-office · Has led teams in both. Optimizing for the right job fit.",
   availability:
-    "Left SSA after 17 years to build in the private sector — Quadratic Digital was the proving ground, where I ship production multi-agent AI. Now looking to lead AI delivery as a hands-on player-coach: setting the architecture and quality bar and leading the team that ships production agentic systems, where nearly a decade of federal delivery discipline and hands-on building compound. Looking for platform fit, not another title.",
+    "Left SSA after 17 years to build in the private sector — Quadratic Digital was the proving ground, where I design and ship multi-agent AI systems. Now looking to lead AI delivery as a hands-on player-coach: setting the architecture and quality bar and leading the team that ships agentic systems, where nearly a decade of federal delivery discipline and hands-on building compound. Looking for platform fit, not another title.",
 } as const;
 
 export const portraits = [

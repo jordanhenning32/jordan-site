@@ -15,7 +15,7 @@ export const vision = {
     {
       title: "Builds the systems, ready to lead the team",
       detail:
-        "I architect and operate production multi-agent systems myself — the depth that lets me direct AI engineering work, not just sponsor it: set direction, review the architecture, judge the specialists, and own the delivery outcome. I've led IT delivery at federal scale for nearly a decade; leading the AI engineering team is the next step, and the hands-on build is the authority behind it.",
+        "I architect and operate multi-agent systems myself — the depth that lets me direct AI engineering work, not just sponsor it: set direction, review the architecture, judge the specialists, and own the delivery outcome. I've led IT delivery at federal scale for nearly a decade; leading the AI engineering team is the next step, and the hands-on build is the authority behind it.",
     },
     {
       title: "Read the process — fast",

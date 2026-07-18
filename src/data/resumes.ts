@@ -25,9 +25,9 @@ export const roleResumes: RoleResume[] = [
     label: "AI Engineering & Delivery Leadership",
     shortLabel: "AI Delivery Leadership",
     pitch:
-      "For AI Delivery Lead, Senior AI Engineering Manager, and Director of AI Delivery — federal or commercial. Leads with five production multi-agent systems built hands-on and a decade of federal delivery leadership.",
+      "For AI Delivery Lead, Senior AI Engineering Manager, and Director of AI Delivery — federal or commercial. Leads with five multi-agent systems built hands-on and a decade of federal delivery leadership.",
     matchPoints: [
-      "5 production multi-agent AI systems designed, coded, and operated hands-on",
+      "5 multi-agent AI systems designed, coded, and operated hands-on",
       "Multi-provider orchestration, RAG, and eval/review gates; a dev system that ships verified code",
       "Led multi-tier delivery teams · $200M+ delivered · 99.9% uptime discipline",
     ],
@@ -54,7 +54,7 @@ export const universalResumes = {
   full: {
     label: "Send-ready résumé (2 pages)",
     description:
-      "The default — ATS-friendly and send-ready. Leads with the five production AI systems, AI delivery leadership, and the federal record that makes the combination rare. This is the one to send.",
+      "The default — ATS-friendly and send-ready. Leads with the five AI systems, AI delivery leadership, and the federal record that makes the combination rare. This is the one to send.",
     file: AI_RESUME,
   },
   brief: {

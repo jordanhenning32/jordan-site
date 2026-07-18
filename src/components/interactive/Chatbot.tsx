@@ -18,7 +18,7 @@ const STARTERS = [
 const INTRO: Msg = {
   role: "assistant",
   content:
-    `Hi — I'm a concierge for ${profile.name}'s candidacy. Ask me about his career at SSA and Quadratic Digital, the production AI systems he's shipped, or how his background maps to a role you're hiring for. I can also point you to the right resume version or his Calendly.`,
+    `Hi — I'm a concierge for ${profile.name}'s candidacy. Ask me about his career at SSA and Quadratic Digital, the AI systems he's built, or how his background maps to a role you're hiring for. I can also point you to the right resume version or his Calendly.`,
 };
 
 export function Chatbot() {

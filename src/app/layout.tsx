@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const metaDescription =
-  "Jordan Henning — AI Engineering & Delivery Leader who ships production multi-agent AI systems himself, grounded in 17 years of federal service at SSA — nearly a decade leading IT delivery (Branch Chief over IT for 170 offices at 99.9% uptime; $200M+ delivered as a FAC-P/PM-IT PM). RFP Factory compresses 40-hour federal proposals into 2 hours of review. He builds the AI himself and has led federal IT delivery for a decade — ready to lead AI delivery, federal or commercial. Public Trust background investigation, 2008–2025 — eligible to reinstate. Combat veteran, 101st Airborne.";
+  "Jordan Henning — AI Engineering & Delivery Leader who builds multi-agent AI systems himself, grounded in 17 years of federal service at SSA — nearly a decade leading IT delivery (Branch Chief over IT for 170 offices at 99.9% uptime; $200M+ delivered as a FAC-P/PM-IT PM). RFP Factory compresses 40-hour federal proposals into 2 hours of review. He builds the AI himself and has led federal IT delivery for a decade — ready to lead AI delivery, federal or commercial. Public Trust background investigation, 2008–2025 — eligible to reinstate. Combat veteran, 101st Airborne.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jordanhenning.com"),

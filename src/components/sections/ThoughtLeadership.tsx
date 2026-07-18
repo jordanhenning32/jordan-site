@@ -7,7 +7,6 @@ import { Section } from "@/components/primitives/Section";
 import { FeaturedWork } from "@/components/primitives/FeaturedWork";
 import { cn } from "@/lib/cn";
 
-const visionEssay = essayBySlug("vision-over-syntax");
 const modelEssay = essayBySlug("the-model-was-never-the-hard-part");
 
 export function ThoughtLeadership() {
@@ -17,7 +16,7 @@ export function ThoughtLeadership() {
       id="thoughts"
       eyebrow="Insights"
       title="Perspectives shaping the next era of IT services."
-      description="Short, opinionated takes on leading AI delivery — how modern teams ship production agentic systems that are grounded, gated, and trusted. Start with the featured long-form pieces below — or click into any short take."
+      description="Short, opinionated takes on leading AI delivery — how modern teams ship agentic systems that are grounded, gated, and trusted. Start with the featured long-form pieces below — or click into any short take."
     >
       <div className="mb-6 grid grid-cols-1 gap-4 lg:grid-cols-2">
         <FeaturedWork
@@ -28,17 +27,6 @@ export function ThoughtLeadership() {
           hook={playbook.hook}
           ctaText="Read the full playbook"
         />
-        {visionEssay && (
-          <FeaturedWork
-            href={`/essays/${visionEssay.slug}`}
-            eyebrow="Featured · Essay"
-            title={visionEssay.title}
-            subtitle={visionEssay.subtitle}
-            hook={visionEssay.intro[0]}
-            ctaText="Read the essay"
-            delay={0.08}
-          />
-        )}
         {modelEssay && (
           <FeaturedWork
             href={`/essays/${modelEssay.slug}`}

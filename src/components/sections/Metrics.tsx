@@ -8,7 +8,7 @@ export function Metrics() {
   return (
     <Section
       id="impact"
-      eyebrow="Impact at a glance"
+      eyebrow="Federal delivery record"
       title="The delivery record, in numbers."
       description="Every number below is from real federal and commercial work — hover or tap any metric for the source."
     >

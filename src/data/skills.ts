@@ -21,9 +21,9 @@ export const skillMatrix: SkillCard[] = [
   {
     title: "Multi-Agent AI Systems",
     summary:
-      "Designs, builds, and operates production multi-agent AI systems himself — and leads the delivery of them. Architects multi-provider LLM orchestration, RAG, agent role-separation, and review/eval gates, then directs the work: reads the architecture, reviews the code, and knows what to ask of the engineers because he has shipped it. The hands-on depth is what lets him direct AI engineering work, not just sponsor it.",
+      "Designs, builds, and runs multi-agent AI systems himself — and leads the delivery of them. Architects multi-provider LLM orchestration, RAG, agent role-separation, and review/eval gates, then directs the work: reads the architecture, reviews the code, and knows what to ask of the engineers because he has shipped it. The hands-on depth is what lets him direct AI engineering work, not just sponsor it.",
     proof: [
-      "Five production multi-agent systems designed, coded, and operated hands-on — a dev system, federal proposal automation, a trading desk, marketing automation, and a grounded résumé engine",
+      "Five multi-agent systems designed, coded, and operated hands-on (self-directed; RFP Factory in production at Quadratic) — a dev system, federal proposal automation, a trading desk, marketing automation, and a grounded résumé engine",
       "RFP Factory — parses RFP documents, orchestrates research/strategy/drafting/review agents in parallel, ships polished SME-ready drafts (40h → 2h)",
       "Multi-provider routing (Anthropic + OpenAI + Google + xAI), RAG, deterministic eval/verification gates, prompt engineering at the agent-system level",
       "Process → agent translation: 17 years running real operations means he agentifies the workflows that genuinely benefit — not demos",

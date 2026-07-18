@@ -10,7 +10,7 @@ export const fitProfile = {
       icon: "rocket",
       title: "AI delivery leadership (player-coach)",
       detail:
-        "AI Delivery Lead, Senior AI Engineering Manager, or Director of AI Delivery — a hands-on player-coach who sets the architecture and quality bar and leads the delivery of production multi-agent systems, reading the code and directing the work, not just approving it. Federal or commercial.",
+        "AI Delivery Lead, Senior AI Engineering Manager, or Director of AI Delivery — a hands-on player-coach who sets the architecture and quality bar and leads the delivery of multi-agent AI systems, reading the code and directing the work, not just approving it. Federal or commercial.",
     },
     {
       icon: "building",

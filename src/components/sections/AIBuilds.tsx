@@ -8,18 +8,18 @@ import { BuildDiagram, rfpFactoryStages, devSystemStages, futuresBotStages } fro
 
 const ICONS = [Workflow, Cpu];
 const DIAGRAMS = [
-  { stages: rfpFactoryStages, caption: "34-agent pipeline · human-checkpointed · multi-provider" },
-  { stages: devSystemStages, caption: "8-agent org · plan → code → test → secure → sign-off → verify" },
-  { stages: futuresBotStages, caption: "8-stage pipeline · 5-agent committee" },
+  { stages: rfpFactoryStages, caption: "Human-checkpointed pipeline · grounded RAG · FAR-compliant · multi-provider" },
+  { stages: devSystemStages, caption: "Plan → code → adversarial test → security gate → QA sign-off → deterministic verify" },
+  { stages: futuresBotStages, caption: "Market-regime engine · risk-gated order protocol · operator observability" },
 ];
 
 export function AIBuilds() {
   return (
     <Section
       id="builds"
-      eyebrow="Production builds"
+      eyebrow="Selected builds"
       title="Built these myself. This is the work I lead."
-      description="Every system here began as a workflow Jordan had already run — which is the point: what actually makes an AI product work is understanding the process deeply and quickly enough to know what deserves to be automated, where it breaks, and where a human stays in the loop. These are production multi-agent systems he designed, coded, and operates hands-on — the depth behind the leadership. The next role is leading AI delivery as a player-coach: setting the architecture direction, leading the engineering team, and owning the delivery outcome — with the authority that comes from having built and shipped the work himself."
+      description="Every system here began as a workflow Jordan had already run — which is the point: what actually makes an AI product work is understanding the process deeply and quickly enough to know what deserves to be automated, where it breaks, and where a human stays in the loop. These are self-directed multi-agent systems he designed, coded, and operates hands-on (RFP Factory runs in production at Quadratic) — the depth behind the leadership. The next role is leading AI delivery as a player-coach: setting the architecture direction, leading the engineering team, and owning the delivery outcome — with the authority that comes from having built and shipped the work himself."
     >
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         {aiBuilds.map((b, i) => {

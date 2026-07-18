@@ -14,7 +14,7 @@ export const timeline: Milestone[] = [
     role: "Chief Growth Officer",
     org: "Quadratic Digital",
     highlight:
-      "As co-owner and CGO, I own the firm's AI product build end-to-end — I architect, build, and operate the production multi-agent AI systems and own their delivery — alongside cross-sector growth strategy. Hands-on AI delivery at a 14-person federal IT services firm.",
+      "As co-owner and CGO, I own the firm's AI product build end-to-end — I architect, build, and operate the firm's multi-agent AI systems and own their delivery — alongside cross-sector growth strategy. Hands-on AI delivery at a 14-person federal IT services firm.",
     bullets: [
       "Designed and ship RFP Factory — a 34-agent proposal-automation system that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
       "Built the multi-agent marketing/CRM system that runs the firm's content and lead operations end-to-end behind human-approval safety gates.",

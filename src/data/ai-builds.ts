@@ -58,7 +58,7 @@ export const aiBuilds: AIBuild[] = [
   {
     name: "Multi-Agent Dev System",
     tagline: "An entire software-engineering org, modeled as agents",
-    status: "In production · builds the systems on this page",
+    status: "Self-directed · builds the systems on this page",
     outcome: "The engineered process behind every other system here",
     summary:
       "A pipeline that models a whole dev organization as role-separated AI agents — architect, coder, adversarial tester, bug-fixer, a security reviewer, and a senior QA sign-off — with deterministic verification before any code ships. It encodes how a real engineering team ships safe, quality software: separation of duties, independent review, security and QA gates, and proof-before-done. This is the opposite of 'vibe coding' — it's the engineered process that makes AI-built code trustworthy, and it built the other systems on this page.",
@@ -123,7 +123,7 @@ export const aiBuilds: AIBuild[] = [
   {
     name: "Résumé Engine",
     tagline: "Grounded multi-agent resume & cover-letter system",
-    status: "Personal · production",
+    status: "Self-directed R&D",
     outcome: "Every claim traced to a verified fact before export",
     summary:
       "A 20-agent system that writes job-tailored resumes and cover letters grounded in a knowledge base of real experience — with a hard groundedness gate that blocks export unless every claim traces to a verified fact, plus ATS/recruiter simulation and dual-model QC. Built to make AI-written application material trustworthy, not hallucinated.",
@@ -166,7 +166,7 @@ export const aiBuilds: AIBuild[] = [
   {
     name: "Marketing Ops Console",
     tagline: "Multi-agent marketing & CRM automation",
-    status: "In production · internal (Shadow Edge Tools)",
+    status: "Self-directed · runs my Shadow Edge marketing",
     outcome: "Runs a daily marketing loop end-to-end",
     summary:
       "A multi-agent marketing-operations system that runs a daily marketing loop end-to-end: campaign generation, compliance checks, consent-based lead capture, email-nurture queueing, distribution, and analytics reporting — with dry-run safety gates and human approval required before anything goes live. The CRM/marketing counterpart to RFP Factory: agents do the work, a human owns the go/no-go.",

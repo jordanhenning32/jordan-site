@@ -13,7 +13,7 @@ export function Timeline() {
       id="timeline"
       eyebrow="Career arc"
       title="From one combat tour to AI delivery leadership."
-      description="A 25-year arc through the 101st Airborne, federal IT delivery at scale, and now shipping and leading production AI. Click any milestone for the detail."
+      description="A 25-year arc through the 101st Airborne, federal IT delivery at scale, and now building and leading AI delivery. Click any milestone for the detail."
     >
       <div className="relative">
         <div

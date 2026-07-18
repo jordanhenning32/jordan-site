@@ -26,7 +26,7 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.05 }}
             className="text-4xl font-semibold leading-[1.05] tracking-tight md:text-6xl lg:text-7xl"
           >
-            <span className="gradient-text">I build production AI</span> —
+            <span className="gradient-text">I build multi-agent AI</span> —
             <br className="hidden md:block" /> backed by a decade leading federal IT delivery.
           </motion.h1>
           <motion.p

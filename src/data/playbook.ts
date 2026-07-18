@@ -18,7 +18,7 @@ export const playbook = {
     title: "Operating premise",
     lead: "Listen more than I speak; then ship visible wins on the things I'm certain about — including a real agentic system in production.",
     body:
-      "I've walked in as the new leader of a federal IT branch, as a growth officer at a commercial firm, and I've shipped production multi-agent systems with my own hands. The lesson is always the same: the org watches what you decide, but it remembers what you ship. Decide carefully in the first 30 days. Put a real AI system in front of users by Day 90.",
+      "I've walked in as the new leader of a federal IT branch, as a growth officer at a commercial firm, and I've built multi-agent AI systems with my own hands. The lesson is always the same: the org watches what you decide, but it remembers what you ship. Decide carefully in the first 30 days. Put a real AI system in front of users by Day 90.",
   },
   phases: [
     {
@@ -137,7 +137,7 @@ export const playbook = {
     title: "Why this works",
     lead: "Three things, one of them mine alone.",
     paragraphs: [
-      "Federal-scale delivery taught me that the difference between a 95% and a 99.9% organization isn't talent or budget — it's discipline applied to the right things in the right order. Combat taught me that hesitation costs more than an imperfect decision made on time. And shipping my own production multi-agent systems means I can scope, review, and judge agentic work in real time — I lead the build, not sponsor it from a distance.",
+      "Federal-scale delivery taught me that the difference between a 95% and a 99.9% organization isn't talent or budget — it's discipline applied to the right things in the right order. Combat taught me that hesitation costs more than an imperfect decision made on time. And building my own multi-agent AI systems means I can scope, review, and judge agentic work in real time — I lead the build, not sponsor it from a distance.",
       "The first 90 days aren't about proving I belong. They're about earning the standing to do the next 270 days well — and showing the team a leader who decides, ships, and tells them the truth.",
     ],
   },
