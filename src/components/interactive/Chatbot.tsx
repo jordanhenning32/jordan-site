@@ -9,9 +9,9 @@ import { isLikelyJDPaste, track } from "@/lib/analytics";
 type Msg = { role: "user" | "assistant"; content: string };
 
 const STARTERS = [
-  "Why is Jordan a fit for a VP of Federal Services Delivery role?",
-  "What's the most impressive thing on his resume?",
-  "How does his federal procurement experience map to a prime contractor role?",
+  "Is Jordan a fit for a Head of AI / AI delivery leadership role?",
+  "What's the most impressive thing he's built?",
+  "How does his federal delivery background strengthen an AI leadership role?",
   "Which resume version should I download?",
 ];
 

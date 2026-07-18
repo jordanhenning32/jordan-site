@@ -14,6 +14,11 @@ export const metrics: MetricItem[] = [
     detail: "As Branch Chief: 12 direct reports (incl. 2 team leads) and IT governance, policy & standards authority over a 340-technician field operation across 170 SSA Hearings Offices, serving 7,000+ employees",
   },
   {
+    value: 5,
+    label: "Multi-agent AI systems shipped",
+    detail: "Designed, coded, and operating in production — RFP Factory, Futures Bot, a multi-agent dev system, a marketing/CRM system, and a grounded résumé engine (curated portfolio on GitHub)",
+  },
+  {
     value: 170,
     label: "Nationwide offices unified",
     detail: "End-to-end IT service delivery across all SSA Hearings Offices",
@@ -30,11 +35,6 @@ export const metrics: MetricItem[] = [
     label: "Downtime reduction",
     suffix: "%",
     detail: "Through proactive monitoring, dashboards, and ITIL-driven CSI",
-  },
-  {
-    value: 5,
-    label: "Multi-agent AI systems shipped",
-    detail: "Designed, coded, and operating in production — RFP Factory, Futures Bot, a multi-agent dev system, a marketing/CRM system, and a grounded résumé engine (curated portfolio on GitHub)",
   },
   {
     value: 200,

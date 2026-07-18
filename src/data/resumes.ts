@@ -21,7 +21,7 @@ export const roleResumes: RoleResume[] = [
     label: "Federal Service Delivery / Operations",
     shortLabel: "Federal Service Delivery",
     pitch:
-      "Resume tailored for VP/Director Federal Services Delivery, GM Federal AI Services, and senior service-delivery roles at federal primes and contractors. Leads with 99.9% uptime, 170-office scale, and AI capability layered on enterprise service operations.",
+      "Resume tailored for federal AI services and services-delivery leadership at primes and contractors — GM Federal AI Services and senior delivery roles. Leads with 99.9% uptime, 170-office scale, and production multi-agent AI capability layered on enterprise service operations.",
     matchPoints: [
       "99.9% availability sustained across 170 nationwide offices for millions of users",
       "20% downtime reduction via ITIL-driven monitoring and continual service improvement",

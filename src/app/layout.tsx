@@ -98,12 +98,13 @@ const personSchema = {
     "SSA Commissioner Award (2021)",
   ],
   knowsAbout: [
-    "Federal services delivery",
+    "AI delivery and engineering leadership",
     "Multi-agent AI systems",
-    "ITIL governance",
+    "Agentic AI and LLM orchestration",
+    "RAG and multi-provider model routing",
+    "Federal AI services delivery",
     "FedRAMP and ATO compliance",
     "GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone procurement vehicles",
-    "PA Invitation-to-Qualify (ITQ) procurement",
   ],
 };
 

@@ -11,14 +11,14 @@ export const playbook = {
   slug: "playbook",
   eyebrow: "Playbook",
   title: "The First 90 Days",
-  subtitle: "How I'd Run a New VP of Federal Services Delivery Role",
+  subtitle: "How I'd Run a New Head of AI Delivery Role",
   hook:
-    "The real risk in a new senior role isn't moving too slow, it's moving fast on the wrong things. The first 90 days are about earning the standing to make the decisions that matter, then making them. Here's how I'd structure it.",
+    "The real risk in a new senior role isn't moving too slow — it's shipping fast on the wrong things. The first 90 days are about earning the standing to make the decisions that matter, then making them. Here's how I'd run them leading an AI delivery organization.",
   premise: {
     title: "Operating premise",
-    lead: "Listen more than I speak; then ship visible wins on the things I'm certain about.",
+    lead: "Listen more than I speak; then ship visible wins on the things I'm certain about — including a real agentic system in production.",
     body:
-      "I've been the new leader walking into a federal IT branch, and I've been a new growth officer at a commercial firm. Both lessons were the same: the org watches what you decide, but it remembers what you ship. Decide carefully in the first 30 days. Ship visibly by Day 90.",
+      "I've walked in as the new leader of a federal IT branch, as a growth officer at a commercial firm, and I've shipped production multi-agent systems with my own hands. The lesson is always the same: the org watches what you decide, but it remembers what you ship. Decide carefully in the first 30 days. Put a real AI system in front of users by Day 90.",
   },
   phases: [
     {
@@ -27,38 +27,38 @@ export const playbook = {
       tagline: "Listen, see, map",
       items: [
         {
-          heading: "Federal customer + agency stakeholder listening tour.",
+          heading: "User + stakeholder listening tour.",
           body:
-            "Direct conversations with the top ten federal program POCs and the five most recently escalated agency cases. I want the gap, in their words, between what we said we'd deliver and what they actually experienced. Federal customers don't churn quietly — they go silent first, then we lose the recompete. The contracting officer who can save your next contract is the contracting officer who's already taken your call.",
+            "Direct conversations with the people who depend on the AI work and the sponsors who fund it. I want the gap, in their words, between what the system was supposed to do and what they actually experienced. AI programs don't fail loudly — trust erodes quietly, then the system gets shelved. The user who's stopped relying on it already knows exactly why.",
         },
         {
-          heading: "Internal listening tour.",
+          heading: "Team listening tour.",
           body:
-            "My direct reports first, then every layer below. By Day 30 I've heard from a named individual in every region, every shift, every team. Three questions: What's working? What's broken? What would you fix tomorrow if you had the authority?",
+            "My direct reports first, then every engineer. Three questions: What's working? What's broken? What would you fix tomorrow if you had the authority? I want to know who the real builders are, and where the process is fighting them instead of helping them ship.",
         },
         {
-          heading: "Operational baseline.",
+          heading: "System + eval baseline.",
           body:
-            "I pull the SLA and KPI data myself before I trust the dashboards. Three checks: the metric is measuring what we think it's measuring, the data feeding it is clean, and the variance is explained, not smoothed. The gap between reported uptime and felt uptime is where service organizations die, I learned that at SSA, and I'll never trust a green dashboard again without verifying the methodology.",
+            "I read the architecture and the eval/quality gates myself before I trust any dashboard. Three checks: the eval is measuring what we think it's measuring, the data feeding it is clean, and the failure modes are understood, not smoothed over. The gap between 'the demo works' and 'it's reliable in production' is where AI programs die — I've built the gates that close it.",
         },
         {
-          heading: "Capture pipeline + vehicle audit.",
+          heading: "Model, cost, and vendor audit.",
           body:
-            "I pull the full BD pipeline myself by Day 14: active proposals, upcoming recompetes (mine and adjacent), pursue/no-pursue calls in the next 90 days, and the contract vehicles we're on (GSA MAS, OASIS+, STARS III, agency-specific BPAs). Two questions I'm answering: are we on the right vehicles for the work we actually want, and are we losing recompetes we should be winning? Compliance posture (FedRAMP, ATO, CMMC where applicable) gets the same audit treatment — expiring controls are quiet revenue killers.",
+            "Provider mix, per-run cost, latency, and where we're locked in. Two questions I'm answering: are we routing each job to the model that's actually best for it, and is spend tracked to outcomes or bleeding on no-op calls? I've built multi-provider routing myself, so this is a read I can do without a translator.",
         },
         {
           heading: "Process inventory.",
           body:
-            "Every recurring workflow the team owns, sized by hours, cost, and customer impact. This is where the agent thesis starts to take shape: which workflows are still SOPs because no one has pushed back?",
+            "Every recurring workflow the org owns, sized by hours, cost, and impact. Which of these genuinely deserve to become agents — and which are fine as SOPs? Seventeen years running real operations is how I tell the difference between a workflow worth agentifying and a demo that impresses no one who has to live with it.",
         },
         {
-          heading: "Cultural read.",
+          heading: "Trust + safety read.",
           body:
-            "What does the team think we do? What does the customer think we do? The delta is the work.",
+            "What can the system do unsupervised, and what must stay human-gated? Where's the kill-switch, and has anyone tested it? For anything regulated or federal, the compliance baseline (FedRAMP, ATO, data handling) is the starting line, not an afterthought.",
         },
       ],
       output:
-        "Day 30 memo to the CEO. Current state of service delivery, capture pipeline, and compliance posture. Top three risks, top five opportunities, and one decision I need from leadership.",
+        "Day 30 memo to leadership: current state of the AI delivery org, eval and quality posture, the cost picture, top three risks, top five opportunities, and the one decision I need from leadership.",
     },
     {
       id: "phase-2",
@@ -68,31 +68,31 @@ export const playbook = {
         {
           heading: "Pick three.",
           body:
-            "Three initiatives that move the needle this quarter and next. Everything else goes to a parking lot or a delegated owner. The discipline isn't picking three good things, it's saying “not now” to ten others.",
+            "Three initiatives that move the needle this quarter and next. Everything else goes to a parking lot or a delegated owner. The discipline isn't picking three good things — it's saying “not now” to ten others.",
         },
         {
           heading: "Make the unblocking hire.",
           body:
-            "The single role whose absence is dragging the org. Not a reorg, one hire that unlocks two layers of work.",
+            "The single role whose absence is dragging the team. Not a reorg — one hire that unlocks two layers of work.",
         },
         {
-          heading: "Deploy the agent thesis.",
+          heading: "Stand up the delivery discipline.",
           body:
-            "By Day 60 I want one agent automation piloted on a workflow we already do, compressing labor hours, not eliminating headcount. The pilot is small, observable, and has a clean kill-switch. This is where the technical fluency earns its keep: I can scope, sponsor, and unblock the build without a translator. I won't be writing the production code; I'll be the executive who knows immediately whether the team's plan is sound.",
+            "The exact discipline I built into my own multi-agent dev system, applied to the team: separation of duties, independent review, a security/safety gate, and evals that actually block a bad release. AI teams ship faster when 'done' is defined by a gate, not a vibe — and I've proven the pattern in production.",
         },
         {
-          heading: "Customer-facing rhythm starts.",
+          heading: "Ship one real thing to production.",
           body:
-            "Every top-ten federal program POC has had a face-to-face (or video) with me at least once. Their named Account Executive or Program Manager knows I'm the escalation point if the program is at risk. The agency-side stakeholder relationships get the same treatment — federal services is a relationship business, and the calls you've already taken are the recompetes you're going to win.",
+            "By Day 60 I want one agentic capability live on a workflow we already do — compressing labor hours, not eliminating headcount. Small, observable, clean kill-switch. This is where the hands-on depth earns its keep: I can scope, review, and unblock the build in real time, because I've shipped systems like it myself. I lead the build; I don't wait for a six-week analyst study to tell me if the plan is sound.",
         },
         {
           heading: "Reorganize only where unambiguous.",
           body:
-            "Don't reshuffle in the dark. If a team is structurally wrong and I'm certain, fix it. Otherwise wait, the cost of a wrong reorg compounds for two quarters.",
+            "Don't reshuffle in the dark. If a team is structurally wrong and I'm certain, fix it. Otherwise wait — the cost of a wrong reorg compounds for two quarters.",
         },
       ],
       output:
-        "Day 60 quarterly plan. Three commitments, three explicit “we are not fixing this right now” items, and the agent hire that makes the next 90 days possible.",
+        "Day 60 quarterly plan: three commitments, three explicit “we are not fixing this right now” items, and the hire plus delivery gates that make the next 90 days possible.",
     },
     {
       id: "phase-3",
@@ -102,34 +102,34 @@ export const playbook = {
         {
           heading: "One visible win.",
           body:
-            "A program save, a recompete momentum shift, a recurring incident eliminated, a contract-vehicle move in our direction, a process compressed from a week to a day. Federal services rewards visible operational wins, not vision speeches. Shipping confirms the operating cadence.",
+            "An agentic capability in production, a recurring failure eliminated, a cost curve bent, a cycle compressed from a week to a day. Shipping confirms the operating cadence — vision speeches don't.",
         },
         {
           heading: "Repeatable rhythm in place.",
           body:
-            "Weekly KPI review, monthly customer review, quarterly all-hands. The cadence outlives any single decision.",
+            "Weekly eval/quality review, monthly stakeholder review, quarterly roadmap. The cadence outlives any single decision.",
         },
         {
-          heading: "Agent pilot decision.",
+          heading: "Production decision on the pilot.",
           body:
             "The pilot has either converted to production or has a documented “no, here's why” — either outcome is valuable; ambiguity isn't.",
         },
         {
           heading: "Six-month plan published.",
           body:
-            "Specific enough to be wrong. Not so vague it can never be measured.",
+            "Specific enough to be wrong. Measurable enough to hold.",
         },
       ],
       output:
-        "Day 90 review with the team and the executive sponsor. We exit “new VP” mode and enter operating cadence.",
+        "Day 90 review with the team and the executive sponsor. We exit “new leader” mode and enter operating cadence.",
     },
   ] as PlaybookPhase[],
   donts: {
     title: "What I will NOT do in the first 90 days",
     items: [
       "Reorg the team unless something is on fire",
-      "Promise a roadmap I haven't pressure-tested with customers",
-      "Pick fights I haven't earned the standing to win",
+      "Promise a roadmap I haven't pressure-tested with users and the data",
+      "Ship an AI capability to production without an eval gate and a kill-switch",
       "Hide. The team needs to see me decide, including when I'm wrong",
     ],
   },
@@ -137,7 +137,7 @@ export const playbook = {
     title: "Why this works",
     lead: "Three things, one of them mine alone.",
     paragraphs: [
-      "Federal-scale service delivery taught me that the difference between a 95% and a 99.9% organization isn't talent or budget — it's discipline applied to the right things in the right order. Combat experience taught me that hesitation costs more than imperfect decisions made on time. And technical fluency from shipping my own multi-agent systems means I can sponsor, scope, and judge automation work in real time, not after a six-week analyst study.",
+      "Federal-scale delivery taught me that the difference between a 95% and a 99.9% organization isn't talent or budget — it's discipline applied to the right things in the right order. Combat taught me that hesitation costs more than an imperfect decision made on time. And shipping my own production multi-agent systems means I can scope, review, and judge agentic work in real time — I lead the build, not sponsor it from a distance.",
       "The first 90 days aren't about proving I belong. They're about earning the standing to do the next 270 days well — and showing the team a leader who decides, ships, and tells them the truth.",
     ],
   },

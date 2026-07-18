@@ -56,6 +56,28 @@ export const aiBuilds: AIBuild[] = [
     ],
   },
   {
+    name: "Multi-Agent Dev System",
+    tagline: "An entire software-engineering org, modeled as agents",
+    status: "In production · builds the systems on this page",
+    outcome: "The engineered process behind every other system here",
+    summary:
+      "A pipeline that models a whole dev organization as role-separated AI agents — architect, coder, adversarial tester, bug-fixer, a security reviewer, and a senior QA sign-off — with deterministic verification before any code ships. It encodes how a real engineering team ships safe, quality software: separation of duties, independent review, security and QA gates, and proof-before-done. This is the opposite of 'vibe coding' — it's the engineered process that makes AI-built code trustworthy, and it built the other systems on this page.",
+    capabilities: [
+      "Role-separated agents with independent adversarial review — no agent grades its own work",
+      "A security gate (BLOCK/CLEAN) and a senior QA sign-off (APPROVE/BLOCK) before anything ships",
+      "A deterministic verifier runs the real tests/builds/lint — 'looks good' from an LLM is never enough",
+      "Multi-provider routing (Claude plans and reviews, GPT-5.5 codes) with institutional-memory lessons carried across runs",
+    ],
+    stack: [
+      "Python",
+      "Claude (Opus / Sonnet)",
+      "GPT-5.5 / Codex CLI",
+      "Multi-agent orchestration",
+      "Deterministic verification",
+      "MCP",
+    ],
+  },
+  {
     name: "Futures Bot",
     tagline: "Autonomous multi-agent trading desk",
     status: "Personal R&D · multi-agent trading desk",
@@ -96,6 +118,27 @@ export const aiBuilds: AIBuild[] = [
         alt: "Futures Bot system analytics dashboard showing equity curve and drawdown observability",
         caption: "System analytics · equity-curve and drawdown observability",
       },
+    ],
+  },
+  {
+    name: "Résumé Engine",
+    tagline: "Grounded multi-agent resume & cover-letter system",
+    status: "Personal · production",
+    outcome: "Every claim traced to a verified fact before export",
+    summary:
+      "A 20-agent system that writes job-tailored resumes and cover letters grounded in a knowledge base of real experience — with a hard groundedness gate that blocks export unless every claim traces to a verified fact, plus ATS/recruiter simulation and dual-model QC. Built to make AI-written application material trustworthy, not hallucinated.",
+    capabilities: [
+      "Groundedness verifier — a blocking gate: no export until every claim maps to a knowledge-base fact",
+      "ATS + recruiter simulation and knockout detection before drafting",
+      "Independent dual-model QC (Claude + Grok) with a consolidator",
+      "pgvector retrieval over a personal knowledge base; per-role multi-provider routing",
+    ],
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "Postgres + pgvector",
+      "Anthropic + Google + xAI",
+      "Vercel AI SDK",
     ],
   },
   {

@@ -28,7 +28,7 @@ export function Contact() {
     <Section
       id="contact"
       eyebrow="Let's talk"
-      title="Hiring for federal services delivery? Three ways to evaluate fit."
+      title="Hiring for AI delivery leadership? Three ways to evaluate fit."
       description="Paste your JD into the chatbot for a fit map · read the 90-day Playbook to see how Jordan would run the role · book a 15-minute intro below. Calendar is live, resumes are pre-tailored, chatbot is grounded in everything on this site."
     >
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1.05fr_1fr]">

@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 import { Cpu, Workflow } from "lucide-react";
 import { aiBuilds } from "@/data";
 import { Section } from "@/components/primitives/Section";
-import { BuildDiagram, rfpFactoryStages, futuresBotStages } from "@/components/primitives/BuildDiagram";
+import { BuildDiagram, rfpFactoryStages, devSystemStages, futuresBotStages } from "@/components/primitives/BuildDiagram";
 
 const ICONS = [Workflow, Cpu];
 const DIAGRAMS = [
   { stages: rfpFactoryStages, caption: "9-stage pipeline · multi-provider" },
+  { stages: devSystemStages, caption: "8-agent org · plan → code → test → secure → sign-off → verify" },
   { stages: futuresBotStages, caption: "8-stage pipeline · 5-agent committee" },
 ];
 

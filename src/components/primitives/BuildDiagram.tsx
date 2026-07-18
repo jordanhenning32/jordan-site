@@ -234,3 +234,55 @@ export const futuresBotStages: DiagramStage[] = [
     loopBack: true,
   },
 ];
+
+export const devSystemStages: DiagramStage[] = [
+  {
+    label: "Requirements",
+    detail: "human, once",
+    tone: "input",
+  },
+  {
+    label: "Architect",
+    detail: "traceable spec + plan",
+    agents: ["architect"],
+    providers: ["Claude"],
+  },
+  {
+    label: "Coder",
+    detail: "implements every TODO",
+    agents: ["coder"],
+    providers: ["GPT-5.5"],
+  },
+  {
+    label: "Tester ↔ Bug Fixer",
+    detail: "adversarial review + repair loop",
+    agents: ["tester", "bug_fixer"],
+    providers: ["Claude", "GPT-5.5"],
+    tone: "loop",
+    loopBack: true,
+  },
+  {
+    label: "Security Review",
+    detail: "trading · fintech · secrets gate",
+    agents: ["security_reviewer"],
+    providers: ["Claude"],
+  },
+  {
+    label: "QA Sign-off",
+    detail: "final shippability gate",
+    agents: ["qa_reviewer"],
+    providers: ["Claude"],
+  },
+  {
+    label: "Weakness Router",
+    detail: "routes gaps → smallest reliable fix (after every stage)",
+    agents: ["weakness_router"],
+    providers: ["Sonnet"],
+    loopBack: true,
+  },
+  {
+    label: "Deterministic Verify",
+    detail: "runs real tests / builds / lint — proof before done",
+    tone: "output",
+  },
+];
