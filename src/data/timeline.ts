@@ -16,7 +16,7 @@ export const timeline: Milestone[] = [
     highlight:
       "As co-owner and CGO, I own the firm's AI product build end-to-end — I architect, build, and operate the firm's multi-agent AI systems and own their delivery — alongside cross-sector growth strategy. Hands-on AI delivery at a 14-person federal IT services firm.",
     bullets: [
-      "Designed and ship RFP Factory — a 34-agent proposal-automation system that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
+      "Designed and ship RFP Factory — a role-separated, multi-agent proposal-automation pipeline (research → strategy → drafting → dual-model compliance review) that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
       "Built the multi-agent marketing/CRM system that runs the firm's content and lead operations end-to-end behind human-approval safety gates.",
       "Operate a FedRAMP-aligned delivery posture — AI builds run alongside ATO-aligned controls so the federal compliance baseline is the starting point, not an afterthought.",
       "Embedded the firm as a subcontractor to Nava on CMS modernization; won two PA Invitation-to-Qualify (ITQ) vehicles and qualified into the PA Small Disadvantaged Business program.",

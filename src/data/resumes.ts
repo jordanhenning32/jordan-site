@@ -42,7 +42,7 @@ export const roleResumes: RoleResume[] = [
       "For Director of Federal AI Services / AI delivery leadership at primes and emerging federal-AI firms — where winning federal work and leading multi-agent AI delivery is the job. The federal moat plus hands-on AI.",
     matchPoints: [
       "Public Trust — reinstatement eligible · Former FAC-P/PM-IT · FedRAMP / ATO posture",
-      "RFP Factory — 34-agent federal proposal automation, 40h → 2h, in production",
+      "RFP Factory — multi-agent federal proposal automation (grounded RAG + FAR/compliance gates), 40h → 2h, in production",
       "17 yrs federal service · Branch Chief, 170 offices, 99.9% uptime · $200M+ delivered",
     ],
     file: AI_RESUME,

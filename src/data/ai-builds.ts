@@ -126,7 +126,7 @@ export const aiBuilds: AIBuild[] = [
     status: "Self-directed R&D",
     outcome: "Every claim traced to a verified fact before export",
     summary:
-      "A 20-agent system that writes job-tailored resumes and cover letters grounded in a knowledge base of real experience — with a hard groundedness gate that blocks export unless every claim traces to a verified fact, plus ATS/recruiter simulation and dual-model QC. Built to make AI-written application material trustworthy, not hallucinated.",
+      "A multi-agent system that writes job-tailored resumes and cover letters grounded in a knowledge base of real experience — with a hard groundedness gate that blocks export unless every claim traces to a verified fact, plus ATS/recruiter simulation and dual-model QC. Built to make AI-written application material trustworthy, not hallucinated.",
     capabilities: [
       "Groundedness verifier — a blocking gate: no export until every claim maps to a knowledge-base fact",
       "ATS + recruiter simulation and knockout detection before drafting",
