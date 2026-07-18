@@ -28,10 +28,9 @@ export const metadata: Metadata = {
   keywords: [
     "Jordan Henning",
     "AI Engineering & Delivery Leader",
-    "Head of AI",
     "AI Delivery Lead",
-    "Director of AI Engineering",
-    "GenAI Engineering Manager",
+    "Senior AI Engineering Manager",
+    "Director of AI Delivery",
     "Multi-Agent AI Systems",
     "Agentic AI",
     "LLM orchestration",

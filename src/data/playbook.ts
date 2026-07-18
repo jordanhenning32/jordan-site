@@ -11,7 +11,7 @@ export const playbook = {
   slug: "playbook",
   eyebrow: "Playbook",
   title: "The First 90 Days",
-  subtitle: "How I'd Run a New Head of AI Delivery Role",
+  subtitle: "How I'd Run My First 90 Days Leading AI Delivery",
   hook:
     "The real risk in a new senior role isn't moving too slow — it's shipping fast on the wrong things. The first 90 days are about earning the standing to make the decisions that matter, then making them. Here's how I'd run them leading an AI delivery organization.",
   premise: {
