@@ -24,7 +24,7 @@ export const aiBuilds: AIBuild[] = [
       "Persists project state in a relational store with full audit history for SME review",
     ],
     stack: [
-      "Python 3.14",
+      "Python 3.12+",
       "Anthropic + OpenAI + Gemini",
       "SQLAlchemy 2.0",
       "Alembic",

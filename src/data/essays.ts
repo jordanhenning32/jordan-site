@@ -19,6 +19,7 @@ export const essays: Essay[] = [
     title: "If you can dream it, you can build it.",
     subtitle: "So why are we still hiring people who can only build?",
     intro: [
+      "I write this from the hiring side of the table — this is how I evaluate the technical people I bring on and lead, after years running delivery teams and mentoring several of them into leadership.",
       "We've been telling ourselves a story about engineering hiring for two decades: that the right way to find talent is to stress-test syntax. Whiteboard a binary tree. Reverse a string in O(n) time. Spend five hours on system design. The candidate who codes cleanest under pressure wins.",
       "That story made sense when the bottleneck was implementation. It hasn't been the bottleneck for two years.",
     ],

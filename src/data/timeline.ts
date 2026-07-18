@@ -75,6 +75,7 @@ export const timeline: Milestone[] = [
     highlight: "Combat tour in Iraq with the 101st Airborne.",
     bullets: [
       "Iraq deployment with the 101st Airborne.",
+      "Active-duty service transitioned to the Army Reserve; concurrent Reserve service accounts for the 2008–2009 overlap with the start of civilian federal service.",
       "Developed executive-level leadership, adaptability, resilience, and performance under extreme pressure.",
       "Directly transferable foundation for high-stakes technical leadership and decision-making under pressure.",
     ],
