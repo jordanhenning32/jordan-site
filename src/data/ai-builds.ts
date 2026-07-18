@@ -164,6 +164,27 @@ export const aiBuilds: AIBuild[] = [
     ],
   },
   {
+    name: "Marketing Ops Console",
+    tagline: "Multi-agent marketing & CRM automation",
+    status: "In production · internal (Shadow Edge Tools)",
+    outcome: "Runs a daily marketing loop end-to-end",
+    summary:
+      "A multi-agent marketing-operations system that runs a daily marketing loop end-to-end: campaign generation, compliance checks, consent-based lead capture, email-nurture queueing, distribution, and analytics reporting — with dry-run safety gates and human approval required before anything goes live. The CRM/marketing counterpart to RFP Factory: agents do the work, a human owns the go/no-go.",
+    capabilities: [
+      "Orchestrates campaign generation, compliance review, and distribution as agent stages",
+      "Consent-based lead capture and email-nurture queueing with audit trails",
+      "Analytics import and daily operations reporting",
+      "Dry-run-by-default safety gates; nothing publishes without human approval",
+    ],
+    stack: [
+      "Python",
+      "Multi-agent orchestration",
+      "Marketing automation",
+      "CRM / lead capture",
+      "Compliance gating",
+    ],
+  },
+  {
     name: "Shadow Edge Tools",
     tagline: "NinjaTrader 8 add-on product line",
     status: "In production · shadowedgetools.com",
@@ -183,27 +204,6 @@ export const aiBuilds: AIBuild[] = [
       "Tailwind 4",
       "Lemon Squeezy",
       "Vercel",
-    ],
-  },
-  {
-    name: "Marketing Ops Console",
-    tagline: "Multi-agent marketing & CRM automation",
-    status: "In production · internal (Shadow Edge Tools)",
-    outcome: "Runs a daily marketing loop end-to-end",
-    summary:
-      "A multi-agent marketing-operations system that runs a daily marketing loop end-to-end: campaign generation, compliance checks, consent-based lead capture, email-nurture queueing, distribution, and analytics reporting — with dry-run safety gates and human approval required before anything goes live. The CRM/marketing counterpart to RFP Factory: agents do the work, a human owns the go/no-go.",
-    capabilities: [
-      "Orchestrates campaign generation, compliance review, and distribution as agent stages",
-      "Consent-based lead capture and email-nurture queueing with audit trails",
-      "Analytics import and daily operations reporting",
-      "Dry-run-by-default safety gates; nothing publishes without human approval",
-    ],
-    stack: [
-      "Python",
-      "Multi-agent orchestration",
-      "Marketing automation",
-      "CRM / lead capture",
-      "Compliance gating",
     ],
   },
 ];
