@@ -8,6 +8,7 @@ import { FeaturedWork } from "@/components/primitives/FeaturedWork";
 import { cn } from "@/lib/cn";
 
 const visionEssay = essayBySlug("vision-over-syntax");
+const modelEssay = essayBySlug("the-model-was-never-the-hard-part");
 
 export function ThoughtLeadership() {
   const [open, setOpen] = useState<number | null>(0);
@@ -36,6 +37,17 @@ export function ThoughtLeadership() {
             hook={visionEssay.intro[0]}
             ctaText="Read the essay"
             delay={0.08}
+          />
+        )}
+        {modelEssay && (
+          <FeaturedWork
+            href={`/essays/${modelEssay.slug}`}
+            eyebrow="Featured · Essay"
+            title={modelEssay.title}
+            subtitle={modelEssay.subtitle}
+            hook={modelEssay.intro[0]}
+            ctaText="Read the essay"
+            delay={0.12}
           />
         )}
       </div>
