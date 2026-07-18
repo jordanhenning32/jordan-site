@@ -140,6 +140,28 @@ export const aiBuilds: AIBuild[] = [
       "Anthropic + Google + xAI",
       "Vercel AI SDK",
     ],
+    screenshots: [
+      {
+        src: "/img/resume-talos-dashboard.png",
+        alt: "Résumé Engine dashboard showing the 10-step quality-gated pipeline and knowledge-base fact count",
+        caption: "Dashboard · 10-step quality-gated pipeline + live KB fact count",
+      },
+      {
+        src: "/img/resume-talos-screening.png",
+        alt: "AI screening coverage with keyword and semantic ATS scores and a simulated recruiter-triage verdict",
+        caption: "AI screening · keyword + semantic ATS scores and a recruiter-triage verdict",
+      },
+      {
+        src: "/img/resume-talos-knowledge-base.png",
+        alt: "Knowledge base of grounded professional history — documents, chunks, and extracted facts",
+        caption: "Knowledge base · grounded history every claim traces back to",
+      },
+      {
+        src: "/img/resume-talos-templates.png",
+        alt: "Export template picker with three ATS-aware résumé layouts, each producing DOCX and PDF",
+        caption: "Export · three ATS-aware layouts, each producing DOCX + PDF",
+      },
+    ],
   },
   {
     name: "Shadow Edge Tools",
