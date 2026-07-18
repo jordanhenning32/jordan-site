@@ -48,7 +48,7 @@ export const skillMatrix: SkillCard[] = [
   {
     title: "Multi-Agent AI Systems",
     summary:
-      "Built two production multi-agent systems himself — fluency receipts, not a continuing identity. The technical depth is what makes the executive role sharper: reads architecture without a translator, judges senior AI hires on instinct, sets delivery strategy that accounts for what the tech can actually do.",
+      "Designs, builds, and operates production multi-agent AI systems himself — and leads the delivery of them. Architects multi-provider LLM orchestration, RAG, agent role-separation, and review/eval gates, then directs the work: reads the architecture, reviews the code, and knows what to ask of the engineers because he has shipped it. The hands-on depth is what makes him able to lead AI teams, not just sponsor them.",
     proof: [
       "Process → agent translation: 17 years running real federal service operations means he can spot the workflows that genuinely benefit from agentification (and the ones that don't), so the systems he ships solve actual bottlenecks",
       "RFP Factory — multi-agent proposal automation: parses RFP documents, orchestrates research/strategy/drafting/review agents in parallel, ships polished SME-ready drafts",

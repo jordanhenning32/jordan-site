@@ -1,14 +1,14 @@
 export const profile = {
   name: "Jordan Henning",
   shortName: "Jordan",
-  title: "Federal Services Delivery Executive",
-  subtitle: "17+ years federal IT · IT leadership across 170 offices · $200M+ in IT projects delivered · FAC-P/PM",
+  title: "AI Engineering & Delivery Leader",
+  subtitle: "Ships production multi-agent AI · 17 yrs federal IT delivery leadership · teams across 170 offices · $200M+ delivered · FAC-P/PM · AWS AI",
   tagline:
-    "17 years federal IT at the Social Security Administration. As Branch Chief (2022–2025), managed 12 direct reports (including 2 team leads) and set IT governance, policy, and standards for a 340-technician field operation across 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% availability. Earlier, as a FAC-P/PM–certified IT Project Manager, delivered $200M+ in IT projects on-time and under-budget. Public Trust cleared. Then I started building the AI myself. Two production multi-agent systems, designed and operated hands-on: RFP Factory turns 40-hour federal proposal cycles into 2 hours of human review; Futures Bot is a multi-agent trading desk built end-to-end; and ShadowEdge Tools is a NinjaTrader 8 add-on product line I designed, built, and ship — run by a multi-agent marketing/CRM system I also built. Combat veteran (101st Airborne). The executive federal contractors hire when AI capability and federal delivery discipline have to live in the same person.",
+    "An AI engineering and delivery leader who ships the systems himself. I architect and operate production multi-agent AI: RFP Factory compresses 40-hour federal proposal cycles into 2 hours of human review; a multi-agent trading desk built end-to-end; and the multi-agent marketing system that runs my ShadowEdge Tools product line. That hands-on depth sits on 17 years leading federal IT delivery at the Social Security Administration — as Branch Chief (2022–2025) I ran 12 direct reports (incl. 2 team leads) and set IT governance for a 340-technician operation across 170 nationwide offices at 99.9% availability; earlier, as a FAC-P/PM–certified IT Project Manager, I delivered $200M+ in IT projects on-time and under-budget. Public Trust cleared. Combat veteran (101st Airborne). I lead AI delivery teams and build the AI myself — so I direct the work with an authority most leaders can't bring.",
   email: "jordanhenning32@gmail.com",
   phone: "330-280-0642",
   location: "York, PA",
-  linkedin: "https://www.linkedin.com/in/jordan-henning",
+  linkedin: "https://www.linkedin.com/in/jordan-henning-144b47398/",
   github: "https://github.com/jordanhenning32?tab=repositories",
   githubHandle: "jordanhenning32",
   calendlyUrl: "https://calendly.com/jordanhenning32/15-min-intro-meeting",
@@ -19,7 +19,7 @@ export const profile = {
   workArrangement:
     "Based in York, PA · Open to remote · Open to in-office · Has led teams in both. Optimizing for the right job fit.",
   availability:
-    "Left SSA after 17 years to expand into the private sector and build outside the comfort zone — Quadratic Digital was the proving ground. Now exploring the role where vision, hands-on build, and operational discipline compound into the largest impact of my career — looking for platform fit, not another title.",
+    "Left SSA after 17 years to build in the private sector — Quadratic Digital was the proving ground, where I ship production multi-agent AI. Now looking to lead the AI delivery/engineering organization: directing the teams that build production agentic systems, where hands-on depth and federal delivery discipline compound. Looking for platform fit, not another title.",
 } as const;
 
 export const portraits = [

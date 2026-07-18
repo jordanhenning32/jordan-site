@@ -7,22 +7,21 @@ export type FitItem = {
 export const fitProfile = {
   bestFit: [
     {
-      icon: "building",
-      title: "Federal services delivery leadership",
+      icon: "rocket",
+      title: "AI delivery / engineering leadership",
       detail:
-        "VP / Director of Service Delivery, GM of Federal AI Services, or Senior Director Federal Programs at federal primes and services firms — where 99.9% uptime, federal portfolio delivery at scale, and hands-on AI capability all matter in the same role.",
+        "Head of AI, Director of AI Engineering, AI Delivery Lead, or GenAI Engineering Manager — leading the teams that ship production multi-agent systems, where the leader has to read the architecture and direct the work, not just approve it. Federal or commercial.",
     },
     {
-      icon: "rocket",
-      title: "Federal AI services growth",
+      icon: "building",
+      title: "Federal / GovCon AI delivery leadership",
       detail:
-        "GM, VP, or Practice Director at emerging federal AI services firms — where someone who can both win federal contracts and sponsor multi-agent AI delivery is the job, not a side capability.",
+        "GM, VP, or Practice Director of Federal AI Services at primes and emerging federal-AI firms — where winning federal work AND leading multi-agent AI delivery is the job, and clearance plus federal delivery discipline are the moat.",
     },
   ] as FitItem[],
   lessIdealFit: [
-    "VP Product or VP Engineering at commercial tech (different level/tenure pattern)",
-    "IC engineering roles",
-    "Pre-revenue seed-stage where federal credibility doesn't carry weight",
-    "Roles where AI is a marketing layer rather than a real operational change",
+    "Pure individual-contributor roles with no team to lead",
+    "Roles where AI is a marketing veneer rather than real operational delivery",
+    "Pre-revenue seed-stage where federal credibility and delivery scale don't carry weight",
   ],
 };

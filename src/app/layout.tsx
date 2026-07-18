@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 const metaDescription =
-  "Jordan Henning — Federal Services Delivery Executive. 17 years federal IT at SSA, culminating as Branch Chief over IT for 170 nationwide Hearings Offices serving 7,000+ employees at 99.9% uptime — and earlier $200M+ in IT projects delivered as a FAC-P/PM project manager — now layered with two production multi-agent AI systems built hands-on. The leader federal contractors hire when AI capability and federal delivery discipline have to live in the same person.";
+  "Jordan Henning — AI Engineering & Delivery Leader who ships production multi-agent AI systems himself, grounded in 17 years leading federal IT delivery at SSA (Branch Chief over IT for 170 offices at 99.9% uptime; $200M+ delivered as a FAC-P/PM PM). RFP Factory compresses 40-hour federal proposals into 2 hours of review. He leads AI delivery teams and builds the AI — federal or commercial. Public Trust cleared. Combat veteran, 101st Airborne.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jordanhenning.com"),
@@ -27,22 +27,22 @@ export const metadata: Metadata = {
   description: metaDescription,
   keywords: [
     "Jordan Henning",
-    "Federal Services Delivery Executive",
-    "Federal IT Leadership",
-    "Federal AI Services",
-    "FAC-P/PM",
-    "GSA MAS Schedule",
-    "STARS III",
-    "8(a) SDVOSB HUBZone",
-    "FedRAMP",
-    "ATO governance",
-    "ITIL service delivery",
+    "AI Engineering & Delivery Leader",
+    "Head of AI",
+    "AI Delivery Lead",
+    "Director of AI Engineering",
+    "GenAI Engineering Manager",
     "Multi-Agent AI Systems",
+    "Agentic AI",
+    "LLM orchestration",
     "RFP Factory",
+    "Federal AI Services",
+    "GovCon AI delivery",
+    "Federal IT Leadership",
+    "FAC-P/PM",
+    "FedRAMP",
     "Public Trust clearance",
     "Branch Chief SSA",
-    "VP Federal Services",
-    "Director Federal Programs",
     "Quadratic Digital",
     "101st Airborne",
     "service-disabled veteran",

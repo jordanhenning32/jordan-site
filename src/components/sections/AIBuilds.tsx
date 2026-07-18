@@ -17,8 +17,8 @@ export function AIBuilds() {
     <Section
       id="builds"
       eyebrow="Production AI builds"
-      title="Built these myself. The fluency receipts behind the federal services pitch."
-      description="Production multi-agent systems Jordan designed, coded, and operates — proof the AI capability he sponsors as an executive is grounded in real working systems. The next role is leading the federal services organization that wins on AI capability: chairing the architecture reviews, judging the senior AI hires, and sponsoring agentic-delivery work without needing a translator."
+      title="Built these myself. This is the work I lead."
+      description="Production multi-agent systems Jordan designed, coded, and operates hands-on — the depth behind the leadership. The next role is leading the AI organization that ships systems like these: chairing the architecture reviews, hiring and directing the engineers, and owning the delivery outcome — with the authority that comes from having built and shipped the work himself."
     >
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
         {aiBuilds.map((b, i) => {

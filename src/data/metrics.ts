@@ -32,9 +32,9 @@ export const metrics: MetricItem[] = [
     detail: "Through proactive monitoring, dashboards, and ITIL-driven CSI",
   },
   {
-    value: 2,
+    value: 5,
     label: "Multi-agent AI systems shipped",
-    detail: "RFP Factory and Futures Bot — designed, coded, and operating in production",
+    detail: "Designed, coded, and operating in production — RFP Factory, Futures Bot, a multi-agent dev system, a marketing/CRM system, and a grounded résumé engine (curated portfolio on GitHub)",
   },
   {
     value: 200,

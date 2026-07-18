@@ -4,7 +4,7 @@ export const vision = {
   body: [
     "Technical work in 2026 demands visionaries more than ever — leaders who can hold the entire picture of a product, from first sketch to live deployment, and develop the whole arc with intent.",
     "We're past the era when ideas were the bottleneck. The tools are here. The compute is here. The agents are here. What's scarce now is the operator who can see the end-state, build a path to it, and ship it without losing the original conviction.",
-    "I'm that operator — a federal services executive whose technical fluency makes every call sharper. Reads architecture without a translator, judges senior AI hires on instinct, sets delivery strategy that accounts for what the tech can actually do. The personal builds are how I keep the fluency real; the next role is leading the federal services organization that wins on AI capability — not being the builder for hire.",
+    "I'm that operator — an AI delivery leader who ships the systems himself and has led delivery teams at federal scale. I read architecture, review code, and tune agent systems without a translator, and I've run multi-tier teams to a 99.9%-uptime bar. The next role is leading the AI organization that ships production agentic systems — chairing the architecture reviews, hiring and directing the engineers, owning the delivery outcome — grounded in real federal delivery discipline.",
   ],
   tenets: [
     {
@@ -13,9 +13,9 @@ export const vision = {
         "Holds the whole arc in my head — service delivery, contract performance, infrastructure, capture posture, and the customer outcome — so every decision is shaped by the destination, not the artifact in front of me.",
     },
     {
-      title: "Code-fluent leader",
+      title: "Leads the team, ships the systems",
       detail:
-        "Reads architecture and reviews code without a translator — but the role I want is leadership, not building. The fluency comes from the personal AI systems I ship myself; the value to your org is making executive decisions with technical authority most leaders don't have.",
+        "I architect and operate production multi-agent systems myself — which is exactly what lets me lead the engineers who build them. I set direction, review the architecture, hire the specialists, and know what I'm asking because I've shipped it. Leadership is the role; the hands-on build is the authority behind it.",
     },
     {
       title: "Process → agent translation",
