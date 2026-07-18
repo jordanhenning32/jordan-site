@@ -2,7 +2,7 @@ export const profile = {
   name: "Jordan Henning",
   shortName: "Jordan",
   title: "AI Engineering & Delivery Leader",
-  subtitle: "Ships production multi-agent AI · 17 yrs federal IT delivery leadership · teams across 170 offices · $200M+ delivered · FAC-P/PM · AWS AI",
+  subtitle: "Ships production multi-agent AI · 17 yrs federal IT · ~decade leading IT delivery · Branch Chief across 170 offices · $200M+ delivered · FAC-P/PM",
   tagline:
     "An AI engineering and delivery leader who ships the systems himself. I architect and operate production multi-agent AI: RFP Factory compresses 40-hour federal proposal cycles into 2 hours of human review; a multi-agent trading desk built end-to-end; and the multi-agent marketing system that runs my ShadowEdge Tools product line. That hands-on depth sits on 17 years leading federal IT delivery at the Social Security Administration — as Branch Chief (2022–2025) I ran 12 direct reports (incl. 2 team leads) and set IT governance for a 340-technician operation across 170 nationwide offices at 99.9% availability; earlier, as a FAC-P/PM–certified IT Project Manager, I delivered $200M+ in IT projects on-time and under-budget. Public Trust cleared. Combat veteran (101st Airborne). I lead AI delivery teams and build the AI myself — so I direct the work with an authority most leaders can't bring.",
   email: "jordanhenning32@gmail.com",
