@@ -43,7 +43,7 @@ export const roleResumes: RoleResume[] = [
     matchPoints: [
       "Public Trust — reinstatement eligible · Former FAC-P/PM-IT · FedRAMP / ATO posture",
       "RFP Factory — 34-agent federal proposal automation, 40h → 2h, in production",
-      "17 yrs federal IT · Branch Chief, 170 offices, 99.9% uptime · $200M+ delivered",
+      "17 yrs federal service · Branch Chief, 170 offices, 99.9% uptime · $200M+ delivered",
     ],
     file: AI_RESUME,
     icon: "landmark",
