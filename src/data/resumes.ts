@@ -25,7 +25,7 @@ export const roleResumes: RoleResume[] = [
     label: "AI Engineering & Delivery Leadership",
     shortLabel: "AI Delivery Leadership",
     pitch:
-      "For Head of AI, Director of AI Engineering, AI Delivery Lead, and GenAI Engineering Manager — federal or commercial. Leads with five production multi-agent systems built hands-on and the delivery-team leadership to ship them.",
+      "For AI Delivery Lead, Senior AI Engineering Manager, and Director of AI Delivery — federal or commercial. Leads with five production multi-agent systems built hands-on and a decade of federal delivery leadership.",
     matchPoints: [
       "5 production multi-agent AI systems designed, coded, and operated hands-on",
       "Multi-provider orchestration, RAG, and eval/review gates; a dev system that ships verified code",
@@ -39,7 +39,7 @@ export const roleResumes: RoleResume[] = [
     label: "Federal / GovCon AI Delivery Leadership",
     shortLabel: "Federal AI Delivery",
     pitch:
-      "For GM/VP/Director of Federal AI Services and AI delivery leadership at primes and emerging federal-AI firms — where winning federal work and leading multi-agent AI delivery is the job. The federal moat plus hands-on AI.",
+      "For Director of Federal AI Services / AI delivery leadership at primes and emerging federal-AI firms — where winning federal work and leading multi-agent AI delivery is the job. The federal moat plus hands-on AI.",
     matchPoints: [
       "Public Trust — reinstatement eligible · Former FAC-P/PM-IT · FedRAMP / ATO posture",
       "RFP Factory — 34-agent federal proposal automation, 40h → 2h, in production",

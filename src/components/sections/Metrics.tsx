@@ -9,8 +9,8 @@ export function Metrics() {
     <Section
       id="impact"
       eyebrow="Impact at a glance"
-      title="Outcomes that hold up under audit."
-      description="Every number below is sourced from real federal and commercial work — not aspirations. Hover or tap any metric for the receipt."
+      title="The delivery record, in numbers."
+      description="Every number below is from real federal and commercial work — hover or tap any metric for the source."
     >
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {metrics.map((m, i) => (

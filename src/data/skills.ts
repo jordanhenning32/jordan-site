@@ -21,7 +21,7 @@ export const skillMatrix: SkillCard[] = [
   {
     title: "Multi-Agent AI Systems",
     summary:
-      "Designs, builds, and operates production multi-agent AI systems himself — and leads the delivery of them. Architects multi-provider LLM orchestration, RAG, agent role-separation, and review/eval gates, then directs the work: reads the architecture, reviews the code, and knows what to ask of the engineers because he has shipped it. The hands-on depth is what makes him able to lead AI teams, not just sponsor them.",
+      "Designs, builds, and operates production multi-agent AI systems himself — and leads the delivery of them. Architects multi-provider LLM orchestration, RAG, agent role-separation, and review/eval gates, then directs the work: reads the architecture, reviews the code, and knows what to ask of the engineers because he has shipped it. The hands-on depth is what lets him direct AI engineering work, not just sponsor it.",
     proof: [
       "Five production multi-agent systems designed, coded, and operated hands-on — a dev system, federal proposal automation, a trading desk, marketing automation, and a grounded résumé engine",
       "RFP Factory — parses RFP documents, orchestrates research/strategy/drafting/review agents in parallel, ships polished SME-ready drafts (40h → 2h)",
@@ -32,7 +32,7 @@ export const skillMatrix: SkillCard[] = [
   {
     title: "AI Delivery Leadership",
     summary:
-      "Leads the teams and pipelines that ship production agentic systems — architecture direction, eval and review gates, and delivery governance — with the hands-on depth to judge the work, not just approve it.",
+      "Delivery leadership for production AI — sets the architecture direction, the eval and review gates, and the quality bar, with the hands-on depth to judge the work, not just approve it. Grounded in a decade leading federal IT delivery; ready to lead the AI engineering team next.",
     proof: [
       "Encoded a full engineering org as agents — architect, coder, adversarial tester, security reviewer, senior QA sign-off — with deterministic verification before code ships",
       "Runs AI delivery the way a real org ships: separation of duties, independent review, a security gate, and 'done' defined as an eval gate, not a vibe",

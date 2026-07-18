@@ -45,8 +45,8 @@ export function SkillsRadar() {
     <Section
       id="skills"
       eyebrow="Competency profile"
-      title="Quantified strengths, with proof on demand."
-      description="The radar reflects core executive competencies. Click any card to see the receipts — actual outcomes from federal and commercial work."
+      title="Core competencies — with the receipts."
+      description="The radar maps core competencies across AI delivery and federal IT. Click any card for the receipts — actual outcomes from federal and commercial work."
     >
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1.1fr_1fr]">
         <motion.div
@@ -79,13 +79,8 @@ export function SkillsRadar() {
                     : "hover:border-accent/30",
                 )}
               >
-                <div className="flex items-center justify-between">
-                  <div className="text-sm font-semibold tracking-tight md:text-base">
-                    {s.title}
-                  </div>
-                  <div className="font-mono text-xs text-accent">
-                    {radarSkills[i]?.score ?? "—"}/100
-                  </div>
+                <div className="text-sm font-semibold tracking-tight md:text-base">
+                  {s.title}
                 </div>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{s.summary}</p>
                 {isActive && (

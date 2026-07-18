@@ -4,7 +4,7 @@ export const vision = {
   body: [
     "Technical work in 2026 demands visionaries more than ever — leaders who can hold the entire picture of a product, from first sketch to live deployment, and develop the whole arc with intent.",
     "We're past the era when ideas were the bottleneck. The tools are here. The compute is here. The agents are here. What's scarce now is the operator who can see the end-state, build a path to it, and ship it without losing the original conviction.",
-    "I'm that operator — an AI delivery leader who ships the systems himself and has led delivery teams at federal scale. I read architecture, review code, and tune agent systems without a translator, and I've run multi-tier teams to a 99.9%-uptime bar. The next role is leading the AI organization that ships production agentic systems — chairing the architecture reviews, hiring and directing the engineers, owning the delivery outcome — grounded in real federal delivery discipline.",
+    "I'm that operator — an AI delivery leader who ships the systems himself and has led delivery teams at federal scale. I read architecture, review code, and tune agent systems without a translator, and I've run multi-tier teams to a 99.9%-uptime bar. The next role is leading AI delivery as a hands-on player-coach — setting architecture direction, leading the engineering team, and owning the delivery outcome — grounded in a decade of real federal delivery discipline.",
   ],
   tenets: [
     {
@@ -13,9 +13,9 @@ export const vision = {
         "Holds the whole arc in my head — architecture, delivery, reliability and cost, compliance, and the user outcome — so every decision is shaped by the destination, not the artifact in front of me.",
     },
     {
-      title: "Leads the team, ships the systems",
+      title: "Builds the systems, ready to lead the team",
       detail:
-        "I architect and operate production multi-agent systems myself — which is exactly what lets me lead the engineers who build them. I set direction, review the architecture, hire the specialists, and know what I'm asking because I've shipped it. Leadership is the role; the hands-on build is the authority behind it.",
+        "I architect and operate production multi-agent systems myself — the depth that lets me direct AI engineering work, not just sponsor it: set direction, review the architecture, judge the specialists, and own the delivery outcome. I've led IT delivery at federal scale for nearly a decade; leading the AI engineering team is the next step, and the hands-on build is the authority behind it.",
     },
     {
       title: "Read the process — fast",

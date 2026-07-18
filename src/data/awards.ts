@@ -8,9 +8,9 @@ export type Award = {
 
 export const awards: Award[] = [
   {
-    title: "Public Trust Clearance",
+    title: "Public Trust — Background Investigation",
     year: "2008–2025",
-    issuer: "U.S. Federal Government · High Risk Tier",
+    issuer: "U.S. Federal Government · Tier 4 (High Risk)",
     detail:
       "Held throughout 17-year SSA tenure. Federal background investigation; cleared to handle PII at the Social Security Administration. Eligible to reinstate.",
     icon: "shield",

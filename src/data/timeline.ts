@@ -14,7 +14,7 @@ export const timeline: Milestone[] = [
     role: "Chief Growth Officer",
     org: "Quadratic Digital",
     highlight:
-      "Architect, build, and operate the firm's production multi-agent AI systems — and lead their delivery — while driving cross-sector growth. Hands-on AI delivery paired with go-to-market strategy at a 14-person federal IT services firm.",
+      "As co-owner and CGO, I own the firm's AI product build end-to-end — I architect, build, and operate the production multi-agent AI systems and own their delivery — alongside cross-sector growth strategy. Hands-on AI delivery at a 14-person federal IT services firm.",
     bullets: [
       "Designed and ship RFP Factory — a 34-agent proposal-automation system that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
       "Built the multi-agent marketing/CRM system that runs the firm's content and lead operations end-to-end behind human-approval safety gates.",
@@ -44,7 +44,7 @@ export const timeline: Milestone[] = [
     role: "IT Project Manager (FAC-P/PM-IT Certified)",
     org: "Social Security Administration",
     location: "Baltimore, MD",
-    highlight: "Delivered $200M+ in IT projects cumulatively over the tenure — on-time, under-budget, millions saved.",
+    highlight: "Led delivery of $200M+ in IT projects across matrixed teams over the tenure — on-time, under-budget, millions saved.",
     bullets: [
       "Led centralized print services consolidation — single-vendor architecture and renegotiated contracts saving the agency millions.",
       "Implemented agency-wide BI platform — Tableau + WebFocus selection, integration, training, and ongoing maintenance.",

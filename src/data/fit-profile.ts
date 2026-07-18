@@ -8,15 +8,15 @@ export const fitProfile = {
   bestFit: [
     {
       icon: "rocket",
-      title: "AI delivery / engineering leadership",
+      title: "AI delivery leadership (player-coach)",
       detail:
-        "Head of AI, Director of AI Engineering, AI Delivery Lead, or GenAI Engineering Manager — leading the teams that ship production multi-agent systems, where the leader has to read the architecture and direct the work, not just approve it. Federal or commercial.",
+        "AI Delivery Lead, Senior AI Engineering Manager, or Director of AI Delivery — a hands-on player-coach who sets the architecture and quality bar and leads the delivery of production multi-agent systems, reading the code and directing the work, not just approving it. Federal or commercial.",
     },
     {
       icon: "building",
       title: "Federal / GovCon AI delivery leadership",
       detail:
-        "GM, VP, or Practice Director of Federal AI Services at primes and emerging federal-AI firms — where winning federal work AND leading multi-agent AI delivery is the job, and clearance plus federal delivery discipline are the moat.",
+        "Director or Practice Lead of Federal AI Services at primes and emerging federal-AI firms — where winning federal work AND leading multi-agent AI delivery is the job, and Public Trust eligibility plus a decade of federal delivery discipline are the moat.",
     },
   ] as FitItem[],
   lessIdealFit: [
