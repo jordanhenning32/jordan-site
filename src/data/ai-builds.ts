@@ -183,6 +183,28 @@ export const aiBuilds: AIBuild[] = [
       "CRM / lead capture",
       "Compliance gating",
     ],
+    screenshots: [
+      {
+        src: "/img/marketing-ops-daily.png",
+        alt: "Daily Ops control panel — one-click actions where AI does the work and a human approves",
+        caption: "Daily Ops · the AI control panel that runs the marketing loop",
+      },
+      {
+        src: "/img/marketing-ops-content.png",
+        alt: "Content Multiplier — drop a long-form video to auto-transcribe, cut Shorts, and prep multi-platform distribution",
+        caption: "Content Multiplier · one long video → shorts, clips, and multi-platform drafts",
+      },
+      {
+        src: "/img/marketing-ops-distribution.png",
+        alt: "Distribution kit from one run — X thread, blog post, email, Reddit and LinkedIn drafts plus clips",
+        caption: "Distribution kit · X, blog, email, Reddit, LinkedIn drafts + clips from one run",
+      },
+      {
+        src: "/img/marketing-ops-listening.png",
+        alt: "Listening Radar — finds risk-management conversations, scores them, and drafts value-first replies for review",
+        caption: "Listening Radar · drafts value-first replies for human review — never auto-posts",
+      },
+    ],
   },
   {
     name: "Shadow Edge Tools",
