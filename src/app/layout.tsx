@@ -104,7 +104,7 @@ const personSchema = {
     "RAG and multi-provider model routing",
     "Federal AI services delivery",
     "FedRAMP and ATO compliance",
-    "GSA MAS Schedule, STARS III, 8(a)/SDVOSB/HUBZone procurement vehicles",
+    "GSA MAS Schedule, STARS III, 8(a)/HUBZone procurement vehicles",
   ],
 };
 

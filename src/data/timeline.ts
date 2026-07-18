@@ -14,7 +14,7 @@ export const timeline: Milestone[] = [
     role: "Chief Growth Officer",
     org: "Quadratic Digital",
     highlight:
-      "Architect, build, and operate the firm's production multi-agent AI systems — and lead their delivery — while driving cross-sector growth. Hands-on AI delivery paired with go-to-market strategy at a 14-person SDVOSB federal IT services firm.",
+      "Architect, build, and operate the firm's production multi-agent AI systems — and lead their delivery — while driving cross-sector growth. Hands-on AI delivery paired with go-to-market strategy at a 14-person federal IT services firm.",
     bullets: [
       "Designed and ship RFP Factory — a 34-agent proposal-automation system that compresses 40-hour proposal cycles into 2 hours of human review (~20×), in production with grounded RAG and FAR/compliance guardrails.",
       "Built the multi-agent marketing/CRM system that runs the firm's content and lead operations end-to-end behind human-approval safety gates.",
