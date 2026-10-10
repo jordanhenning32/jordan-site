@@ -1,6 +1,8 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { motion, useInView } from "framer-motion";
+
+const subscribeNoop = () => () => {};
 
 export function Counter({
   value,
@@ -17,16 +19,16 @@ export function Counter({
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, margin: "-15%" });
-  // Seed with the final value so SSR / no-JS render the real number (not "0").
-  const [display, setDisplay] = useState(value);
+  // False on the server and during hydration, true afterwards.
+  const hydrated = useSyncExternalStore(
+    subscribeNoop,
+    () => true,
+    () => false,
+  );
+  const [display, setDisplay] = useState(0);
 
   useEffect(() => {
-    if (!inView) {
-      // On the client, before the metric scrolls into view, reset to 0 so the
-      // count-up animation has somewhere to start from.
-      setDisplay(0);
-      return;
-    }
+    if (!inView) return;
     const start = performance.now();
     let raf = 0;
     const tick = (now: number) => {
@@ -39,7 +41,10 @@ export function Counter({
     return () => cancelAnimationFrame(raf);
   }, [inView, value, duration]);
 
-  const formatted = display.toLocaleString(undefined, {
+  // SSR / no-JS render the real number (not "0"). On the client, hold at 0
+  // until the metric scrolls into view so the count-up starts from there.
+  const shown = !hydrated ? value : inView ? display : 0;
+  const formatted = shown.toLocaleString(undefined, {
     minimumFractionDigits: decimals,
     maximumFractionDigits: decimals,
   });

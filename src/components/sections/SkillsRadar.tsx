@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import dynamic from "next/dynamic";
 import { motion } from "framer-motion";
 import { radarSkills, skillMatrix } from "@/data";
@@ -18,25 +18,28 @@ const SkillsRadarChart = dynamic(() => import("./SkillsRadarChart"), {
 
 export function SkillsRadar() {
   const [active, setActive] = useState(0);
-  const [colors, setColors] = useState({
-    accent: "rgb(56, 189, 248)",
-    accentFill: "rgba(56, 189, 248, 0.18)",
-    muted: "rgb(148, 163, 184)",
-    grid: "rgba(56, 189, 248, 0.18)",
-  });
-
-  useEffect(() => {
+  // Read theme colors once on the client. The chart is ssr:false, so these never
+  // reach server HTML and can't cause a hydration mismatch.
+  const [colors] = useState(() => {
+    if (typeof document === "undefined") {
+      return {
+        accent: "rgb(56, 189, 248)",
+        accentFill: "rgba(56, 189, 248, 0.18)",
+        muted: "rgb(148, 163, 184)",
+        grid: "rgba(56, 189, 248, 0.18)",
+      };
+    }
     const styles = getComputedStyle(document.documentElement);
     const norm = (raw: string) => raw.trim().replace(/\s+/g, ", ");
     const accentTriplet = norm(styles.getPropertyValue("--accent"));
     const mutedTriplet = norm(styles.getPropertyValue("--muted"));
-    setColors({
+    return {
       accent: `rgb(${accentTriplet})`,
       accentFill: `rgba(${accentTriplet}, 0.18)`,
       muted: `rgb(${mutedTriplet})`,
       grid: `rgba(${accentTriplet}, 0.22)`,
-    });
-  }, []);
+    };
+  });
 
   const labels = radarSkills.map((s) => s.short);
   const values = radarSkills.map((s) => s.score);

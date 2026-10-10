@@ -89,7 +89,7 @@ export function Contact() {
               href="/playbook"
               className="group mt-4 inline-flex items-center gap-1.5 text-sm font-medium text-accent transition-colors hover:text-foreground"
             >
-              Want a sense of how I'd run the role? Read the 90-day playbook
+              Want a sense of how I&apos;d run the role? Read the 90-day playbook
               <ArrowUpRight className="h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </Link>
 

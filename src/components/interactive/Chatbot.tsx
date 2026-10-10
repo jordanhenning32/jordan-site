@@ -272,7 +272,7 @@ export function Chatbot() {
                 </button>
               </div>
               <div className="mt-2 px-1 text-[10px] text-muted">
-                Replies grounded in Jordan's resume and SSA highlights. Outside that, the bot will
+                Replies grounded in Jordan&apos;s resume and SSA highlights. Outside that, the bot will
                 point you to him directly.
               </div>
             </form>
