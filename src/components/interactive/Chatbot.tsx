@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { MessageCircle, X, Send, Sparkles } from "lucide-react";
-import { profile } from "@/data";
+import { chatCopy, profile } from "@/data";
 import { cn } from "@/lib/cn";
 import { isLikelyJDPaste, track } from "@/lib/analytics";
 
@@ -65,6 +65,29 @@ export function Chatbot() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: next }),
       });
+      if (!res.ok) {
+        // Only 429/403 bodies are echoed: we write those. Other error bodies are never shown.
+        let serverMsg: string | undefined;
+        try {
+          const data = await res.json();
+          if (typeof data?.error === "string" && data.error.trim()) serverMsg = data.error;
+        } catch {}
+        const friendly =
+          res.status === 429
+            ? (serverMsg ?? chatCopy.minuteLimit)
+            : res.status === 403
+              ? (serverMsg ?? chatCopy.forbidden)
+              : chatCopy.unavailable(profile.email);
+        setMessages((cur) => {
+          const copy = [...cur];
+          const last = copy[copy.length - 1];
+          if (last && last.role === "assistant") {
+            copy[copy.length - 1] = { ...last, content: friendly };
+          }
+          return copy;
+        });
+        return;
+      }
       if (!res.body) throw new Error("No response stream.");
       const reader = res.body.getReader();
       const decoder = new TextDecoder();

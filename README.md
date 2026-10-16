@@ -50,3 +50,25 @@ Vercel (recommended — zero-config Next.js + streaming):
 npx vercel
 # add ANTHROPIC_API_KEY + NEXT_PUBLIC_POSTHOG_KEY + NEXT_PUBLIC_POSTHOG_HOST in dashboard
 ```
+
+### Chat abuse protection
+`/api/chat` rejects requests whose Origin/Referer is not jordanhenning.com (localhost is allowed outside production; the deployment's own URL is allowed on Vercel previews) and rate-limits per IP plus a site-wide daily cap.
+
+- **Store:** add "Upstash for Redis" from the Vercel Marketplace and connect it to the project. It injects `UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` or `KV_REST_API_URL`/`KV_REST_API_TOKEN`; either pair works, but only as a complete pair (URL and token both set, Upstash pair preferred). Without them the limiter is per-instance memory only (a warning is logged in production), so limits are not shared across serverless instances.
+- **Limits (optional env vars):**
+
+| Var | Default | Meaning |
+|---|---|---|
+| `CHAT_RATE_PER_MINUTE` | 10 | requests per IP per minute (sliding window) |
+| `CHAT_RATE_PER_DAY` | 60 | requests per IP per day |
+| `CHAT_GLOBAL_PER_DAY` | 300 | requests across all visitors per day |
+
+Counters are keyed on a daily-rotating SHA-256 hash of the IP, never the IP itself, and Upstash analytics are off.
+
+## Tests
+```bash
+npm test   # guard, route, Redis wiring and documentation tests (Node 22.6+)
+PLAYWRIGHT_BROWSERS_PATH=.pipeline/browsers npx playwright install chromium
+npm run build
+npm run test:e2e   # browser + HTTP checks against local Next.js and a fake model service
+```

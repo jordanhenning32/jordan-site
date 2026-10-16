@@ -16,3 +16,4 @@ export * from "./resumes";
 export * from "./fit-profile";
 export * from "./playbook";
 export * from "./essays";
+export * from "./chat";

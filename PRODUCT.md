@@ -14,6 +14,7 @@ Recruiters, hiring managers and executive search firms looking at Jordan Henning
 - No user accounts, sign-in, payments or stored visitor data.
 - No session recording, no cookies or identifying storage, no visitor identification.
 - No inflated or unverifiable claims.
+- The chat API keeps short-lived abuse counters keyed on a daily-rotating hash of the IP (never the IP itself) that expire within 24 hours.
 
 ## Non-negotiables (locked rules)
 - Read the relevant guide in `node_modules/next/dist/docs/` before writing Next.js code. This Next.js 16 has breaking changes (AGENTS.md).
@@ -31,4 +32,4 @@ Recruiters, hiring managers and executive search firms looking at Jordan Henning
 Plain, confident and specific. A player-coach leader's voice, backed by evidence, with no hype.
 
 ## What "done" means
-`npm run lint`, `npx tsc --noEmit` and `npm run build` pass. Pages render on phone and desktop with no console errors. Analytics privacy settings are intact. Every factual claim matches the authoritative record. The change deploys by pushing to master (Vercel).
+`npm run lint`, `npx tsc --noEmit`, `npm run build` and `npm test` pass. Pages render on phone and desktop with no console errors. Analytics privacy settings are intact. Every factual claim matches the authoritative record. The change deploys by pushing to master (Vercel).
